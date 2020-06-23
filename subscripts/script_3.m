@@ -1,7 +1,7 @@
 %% script_3
 
 %read in data
-data = csvread('outline.csv');
+data = csvread('data/outline.csv');
 %remove missing data 
 data(data = -999) = NaN;
 %plot data

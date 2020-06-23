@@ -2,7 +2,7 @@
 % something doesn't look right...
 
 %read in data
-data = csvread('ASB.csv');
+data = csvread('data/ASB.csv');
 %plot data
 plot(data(:,2), data(:,1), 'k-', 'LineWidth',7);
 
