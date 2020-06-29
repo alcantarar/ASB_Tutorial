@@ -1,7 +1,12 @@
 # ASB 2020 GitHub tutorial setup
-#### [Ryan Alcantara](https://twitter.com/Ryan_Alcantara_) & [Gary Bruening](https://twitter.com/garebearbru)
+#### [Ryan Alcantara](https://twitter.com/Ryan_Alcantara_) & [Gary Bruening](https://twitter.com/garebearbru) & [Ross Wilkinson]
 
-This document is intended to take you through the steps required before the meeting. 
+This will be the repository that we will use for the Git Tutorial for [ASB 2020](https://asb2020.gatech.edu/)!
+
+We will keep updating this as more things get added.
+
+# Pre-Meeting Setup
+This section is intended to take you through the steps required before the meeting. 
 
 The first program everyone will need is some version of Git. Git is the version control software that allows us to see, track, and edit changes to code bases. 
 The second program is either [MATLAB](https://www.mathworks.com/) or [Python](https://www.python.org/). We will be using these to run out example scripts.
@@ -34,7 +39,7 @@ or if your on Debian-based, like Ubuntu run
 
 If these don't work, go to this [page](https://git-scm.com/download/linux) for more information.
 
-## MATLAB/Python
+## Installing MATLAB/Python
 We setup this tutorial to be used with both MATLAB and Python, either should work.
 Python however, is free to use and download while MATLAB will require a license. Most universities provide students licenses.
 
