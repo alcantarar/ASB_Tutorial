@@ -1,36 +1,88 @@
 # Git Cheatsheet
-## One and Done Configuration
-### Cloning a branch's (branch is "branch-name") repository locally (on your computer). Do this once into an empty folder.
-```
-git clone master https://USERNAME:PASSWORD@github.com/USERNAME/RESPOSITORY-NAME/
-git clone -b branch-name https://USERNAME:PASSWORD@github.com/USERNAME/REPOSITORY-NAME/
-```
-### Tell git who you are. This may be required if you are accessing private repositories and you should do this just once when you first install git.
-```
-git config --global user.name "USERNAME"
-git config --global user.email "GITHUB-EMAIL"
-```
+### Modified from the [Github Education Material](https://education.github.com/git-cheat-sheet-education.pdf)
+### There are additional functions, but this is a basic introduction.
+## DEFINITIONS
+* **Local Repository** - A version of your repository that physically exists on your computer.
+* **Remote Repository** - A version of your repository that exists on a server (like GitHub's).
+* **Directory** - A folder on your computer. The working directory is the folder you are working in and can be set using the `cd` command.
+* **Commit** - A snapshot of changes made to files. Files must be staged via the `git add` command. 
+* **Staged/Staging** - The process of identifying which files will be included in a commit. Can include all files in directory or specific files.
 
-## Going to work on something and not sure if a collaborator has made changes?
-### Update your local repository before doing ANYTHING during a coding session. This makes sure you are working on up-to-date files for your branch.
-Navigate to your local repository/branch using `cd` command in git bash, then:
+## DIRECTORY NAVIGATION
+Change directory to explicit location:
 ```
-git pull origin branch-name
+cd PATH/TO/DESIRED/DIRECTORY/
 ```
-This "pulls" the most recent changes from the repository to your local folder. 
-Now you are good to work on some code. When you're done, save locally and then
-do the following to take a "snapshot" of your repository (make a commit) and send it to the repository on GitHub:
+Change "up" one level:
+```
+cd ..
+```
+*This is equivalent to `cd PATH/TO/DESIRED/`*
 
-### stage repository, commit changes (with comments), and then push to github
+## CONFIGURATION
+#### Configuring user information used across all local repositories on your computer
+Set a name that is identifiable for credit when reviewing version history:
+```
+git config --global user.name "[FIRSTNAME LASTNAME]"
+```
+Set an email address that will be associated with each commit and required to access private
+private repositories:
+```
+git config --global user.email "[GITHUB EMAIL]"
+```
+## SETUP LOCAL REPOSITORY
+Initialize an existing directory as a Git repository:
+```
+git init
+```
+Retrieve an entire remote repository via URL:
+```
+git clone [URL]
+```
+## STAGE & SNAPSHOT CHANGES
+Show modified files in working directory, staged for your next commit:
+```
+git status
+```
+Stage a recently changed file, making it ready to be part of your next commit:
+```
+git add [FILENAME]
+```
+Stage all changes made in working directory, making them ready to be part of your next commit:
 ```
 git add .
-git commit -m 'Insert commit message here'
-git push
 ```
-A commit is just a snapshot of changes made to files. Staging the files is like deciding which people to include in an image.
-The `git add .` command tells git that every file is going to be included in the snapshot, but you can replace `.` with a specific filename
- to just commit changes for that file. Github keeps track of all commits (changes) within a repository. 
-*Always include short comments for commits!*
-"Pushing" to github is just sending your updated code to github. Add, commit, comment, and push often because they serve as
-checkpoints in your development process.  
-
+Unstage a file while retaining the changes made to the file:
+```
+git reset [FILENAME]
+```
+View line-by-line changes made to files not staged:
+```
+git diff
+```
+View line-by-line changes made to files that are staged:
+```
+git diff --staged
+``` 
+Finialize the snapshot of your staged file(s) by making a commit:
+```
+git commit -m "[SHORT MESSAGE DESCRIBING CHANGES MADE]"
+```
+## BRANCH & MERGE
+#### Isolating work into specific branches and changing branches
+List your available branches. An asterik will appear next to the currently active branch:
+```
+git branch
+```
+Create a new branch based on the most recent commit:
+```
+git branch [BRANCH-NAME]
+```
+Switch your local directory to another branch:
+```
+git checkout -b [BRANCH-NAME]
+```
+Show all the commits in the current branch's history:
+```
+git log
+```
