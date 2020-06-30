@@ -70,7 +70,11 @@ git commit -m "[SHORT MESSAGE DESCRIBING CHANGES MADE]"
 ```
 Transmit local commits (changes) to the remote repository:
 ```
-git push [BRANCH-NAME]
+git push
+```
+Update local repository with changes made in remote repository:
+```
+git pull
 ```
 
 ## BRANCH & MERGE
