@@ -68,6 +68,11 @@ Finialize the snapshot of your staged file(s) by making a commit:
 ```
 git commit -m "[SHORT MESSAGE DESCRIBING CHANGES MADE]"
 ```
+Transmit local commits (changes) to the remote repository:
+```
+git push [BRANCH-NAME]
+```
+
 ## BRANCH & MERGE
 #### Isolating work into specific branches and changing branches
 List your available branches. An asterik will appear next to the currently active branch:
