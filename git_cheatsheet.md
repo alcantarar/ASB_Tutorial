@@ -77,7 +77,7 @@ Update local repository with changes made in remote repository:
 git pull
 ```
 
-## BRANCH & MERGE
+## BRANCHES
 #### Isolating work into specific branches and changing branches
 List your available branches. An asterik will appear next to the currently active branch:
 ```
