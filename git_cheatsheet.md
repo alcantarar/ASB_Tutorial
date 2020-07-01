@@ -32,10 +32,10 @@ private repositories:
 git config --global user.email "[GITHUB EMAIL]"
 ```
 ## GETTING HELP
-Replace VERB with the operation you need help with. `--help` will return the full help page, while `--h` returns a consolidated help page:
+Replace [VERB] with the operation you need help with. `--help` will return the full help page, while `--h` returns a consolidated help page:
 ``` 
-git VERB --help
-git VERB -h
+git [VERB] --help
+git [VERB] -h
 ```
 ## SETUP LOCAL REPOSITORY
 Initialize an existing directory as a git repository:
