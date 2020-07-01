@@ -8,7 +8,7 @@ We will keep updating this as more things get added.
 # Pre-Meeting Setup
 This section is intended to take you through the steps required before the meeting. 
 
-The first program everyone will need is some version of Git. Git is the version control software that allows us to see, track, and edit changes to code bases. 
+The first program everyone will need is some version of Git. Git is the version control software that allows you to see, track, and edit changes to code bases. 
 The second program is either [MATLAB](https://www.mathworks.com/) or [Python](https://www.python.org/). We will be using these to run out example scripts.
 
 ## Installing Git
@@ -20,21 +20,22 @@ For this tutorial we will be focusing on using Git with [Github](https://github.
 Windows has two options, you can install Git and use the Git Bash application, or you can use the Github desktop application.
 
 To download Git and use the Bash application, go to [this website](https://git-scm.com/download/win) and click the link associated with your version of Windows.
+The tutorial will be focused on using the GitBash application, so we highly recommend this.
 
+If you don't want to use GitBash, you can use the desktop application, but we do not recommend this.
 To download the Github desktop application, go [here](https://desktop.github.com/) and download the application.
 
 ### Mac
-With Mac (10.9 and above), you can install Git directly by running the command 
+With Mac (10.9 and above), you can install Git directly by running the command in terminal
 	git --version
 
 You can also install Git through the binary installer, and can be downloaded [here](https://git-scm.com/download/mac).
 
-
 ### Linux
-If your on Fedora or another closely related distribution you should be able to run
+If you're on Fedora or another closely related distribution you should be able to run
 	$ sudo dnf install git-all
 
-or if your on Debian-based, like Ubuntu run
+or if you're on Debian-based, like Ubuntu run
 	$ sudo apt install git-all
 
 If these don't work, go to this [page](https://git-scm.com/download/linux) for more information.
