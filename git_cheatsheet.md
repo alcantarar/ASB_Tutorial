@@ -31,6 +31,11 @@ private repositories:
 ```
 git config --global user.email "[GITHUB EMAIL]"
 ```
+## GETTING HELP
+Replace VERB with the operation you need help with:
+``` 
+git help VERB
+```
 ## SETUP LOCAL REPOSITORY
 Initialize an existing directory as a git repository:
 ```
