@@ -8,8 +8,10 @@ We will keep updating this as more things get added.
 # Pre-Meeting Setup
 This section is intended to take you through the steps required before the meeting. 
 
-The first program everyone will need is some version of Git. Git is the version control software that allows you to see, track, and edit changes to code bases. 
-The second program is either [MATLAB](https://www.mathworks.com/) or [Python](https://www.python.org/). We will be using these to run out example scripts.
+There are three things that you need to do BEFORE the tutorial.
+1. First you need to create a [Github](https://github.com/) account. Follow the instructions on their page to setup your account.
+2. The first program everyone will need is some version of Git. Git is the version control software that allows you to see, track, and edit changes to code bases. 
+3. The second program is either [MATLAB](https://www.mathworks.com/) or [Python](https://www.python.org/). We will be using these to run out example scripts.
 
 ## Installing Git
 This [website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) has more detailed install instructions for all 3 operating systems.
