@@ -1,10 +1,11 @@
 # Git Cheatsheet
 ### Modified from the [Github Education Material](https://education.github.com/git-cheat-sheet-education.pdf)
-### There are additional functions, but this is a basic introduction.
+### There are additional functions, but this is a basic introduction. 
+#### Note: Text in brackets must be replaced by object described within brackets: "[FIRSTNAME LASTNAME]" -> "Kevin Bacon" 
 ## DEFINITIONS
 * **Local Repository** - A version of your repository that physically exists on your computer.
 * **Remote Repository** - A version of your repository that exists on a server (like GitHub's).
-* **Directory** - A folder on your computer. The working directory is the folder you are working in and can be set using the `cd` command.
+* **Directory** - A folder on your computer. The working directory is the folder you are working in and can be changed using the `cd` command.
 * **Commit** - A snapshot of changes made to files. Files must be staged via the `git add` command. 
 * **Staged/Staging** - The process of identifying which files will be included in a commit. Can include all files in directory or specific files.
 
@@ -13,7 +14,7 @@ Change directory to explicit location:
 ```
 cd PATH/TO/DESIRED/DIRECTORY/
 ```
-Change "up" one level:
+Change directory to a folder "up" one level:
 ```
 cd ..
 ```
@@ -31,7 +32,7 @@ private repositories:
 git config --global user.email "[GITHUB EMAIL]"
 ```
 ## SETUP LOCAL REPOSITORY
-Initialize an existing directory as a Git repository:
+Initialize an existing directory as a git repository:
 ```
 git init
 ```
