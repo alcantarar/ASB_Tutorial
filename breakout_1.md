@@ -127,6 +127,20 @@ GitHub will show the line-by-line changes made to the script as well as the comm
 and viewed them on GitHub.**
 
 ## 3. Merging branches
+At this point, each branch contains their respective fixed subscripts. However, `main_script.m` on GitHub still isn't functional 
+because you haven't merged all these changes together. The way this is accomplished in GitHub is through a process called
+"Pull Requests". Pull requests merge a given branch with the master branch, applying any changes made in the branch. 
+
+##### a. Open Pull Request
+Navigate to the main repository page on GitHub and select the **Pull requests** tab:
+![](media/PR-tab.png)    
+and select the green "New pull request" button.
+
+Set the "base" branch to `master` and the "compare" branch to your branch from the dropdown menu:    
+![](media/PR-dropdown.png)
+
+GitHub will bring up information about your branch like the number of commits, files changed, and contributors. You will
+also see the line-by-line changes and commit message from earlier. Select the green "Create pull request" button.
 
 
  
