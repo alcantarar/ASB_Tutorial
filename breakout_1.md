@@ -118,7 +118,7 @@ Now if you got to the page for your branch on github, you'll see the changes you
 2. Click the branch selector menu and select your branch name from the dropdown menu:    
 ![](media/branch-selection-dropdown.png)
 
-3. Click on the commit 7-digit identifier to view the changes made:
+3. Click on the commit 7-digit identifier to view the changes made:    
 ![](media/commit-hash.png)
 
 GitHub will show the line-by-line changes made to the script as well as the commit message.
@@ -133,7 +133,7 @@ because you haven't merged all these changes together. The way this is accomplis
 
 ##### a. Open Pull Request
 Each member will need to open a pull request for their branch. Navigate to the main repository page on GitHub and select
-the **Pull requests** tab:
+the **Pull requests** tab:    
 ![](media/PR-tab.png)    
 and select the green "New pull request" button.
 
