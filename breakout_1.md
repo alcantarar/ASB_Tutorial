@@ -151,9 +151,31 @@ these changes. In some cases, there may be conflicts where multiple contributors
 conflicts are typically resolved manually, but good project organization can generally avoid merge conflicts. **If GitHub 
 finds conflicts with your pull request, ask for help from the Tutorial Team before merging the pull request.**
 
-If there are no conflicts (there shouldn't be), select the green "Merge pull request" button. This will update the master
+If there are no conflicts (there shouldn't be any), select the green "Merge pull request" button. This will update the master
 branch to include the changes you made in your branch. **This process will need to be accomplished for each branch.**    
 ![](media/merge-PR.png)    
+
+At this point, the changes have been merged in the remote repository on GitHub, but not your local copy. Updating your 
+local repository is easy. This process is called "Pulling". 
+
+## 4. Pull changes from Remote Repository
+In Git Bash, switch back to the `master` branch:
+```
+$ git checkout master
+```
+Then, tell git to check the remote repository for any changes that might have occurred and pull those changes over to your
+local copy:
+```
+$ git pull
+```
+Now your local copy is up to date with the remote repository on GitHub. 
+
+## Moment of Truth
+Go ahead and run `main_script.m` on your own. If all the bugs are fixed and changes from each branch were merged into
+`master`, `main_script.m` should run successfully and produce your figure. Hopefully it's good enough to win the Nobel 
+Peach Prize!
+
+
 
  
 
