@@ -132,7 +132,8 @@ because you haven't merged all these changes together. The way this is accomplis
 "Pull Requests". Pull requests merge a given branch with the master branch, applying any changes made in the branch. 
 
 ##### a. Open Pull Request
-Navigate to the main repository page on GitHub and select the **Pull requests** tab:
+Each member will need to open a pull request for their branch. Navigate to the main repository page on GitHub and select
+the **Pull requests** tab:
 ![](media/PR-tab.png)    
 and select the green "New pull request" button.
 
@@ -140,8 +141,19 @@ Set the "base" branch to `master` and the "compare" branch to your branch from t
 ![](media/PR-dropdown.png)
 
 GitHub will bring up information about your branch like the number of commits, files changed, and contributors. You will
-also see the line-by-line changes and commit message from earlier. Select the green "Create pull request" button.
+also see the line-by-line changes and commit message from earlier. Select the green "Create pull request" button. Then 
+GitHub will ask you to add more information about the branch you're trying to merge. Write an informative title and 
+select the green "Create pull request" button to confirm your decision:    
+![](media/PR-text.png)    
 
+Now, GitHub will compare the changed files in your branch to their original state in the master branch and try to implement
+these changes. In some cases, there may be conflicts where multiple contributors have changed the same line of code. These
+conflicts are typically resolved manually, but good project organization can generally avoid merge conflicts. **If GitHub 
+finds conflicts with your pull request, ask for help from the Tutorial Team before merging the pull request.**
+
+If there are no conflicts (there shouldn't be), select the green "Merge pull request" button. This will update the master
+branch to include the changes you made in your branch. **This process will need to be accomplished for each branch.**    
+![](media/merge-PR.png)    
 
  
 
