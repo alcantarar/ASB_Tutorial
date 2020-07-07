@@ -12,7 +12,10 @@ There are three things that you need to do BEFORE the tutorial.
 1. First you need to create a [Github](https://github.com/) account. Follow the instructions on their page to setup your account.
 2. The first program everyone will need is some version of Git. Git is the version control software that allows you to see, track, and edit changes to code bases. 
 3. The second program is either [MATLAB](https://www.mathworks.com/) or [Python](https://www.python.org/). We will be using these to run out example scripts.
-4. **Only the group lead needs to do this.**
+4. Create one git repository for the group. **Only the group lead needs to do this.**
+
+## 1. Creating a GitHub Account
+This should be fairly self explanatory. Go the the GitHub [website](https://github.com/), and create a new account.
 
 ## 2. Installing Git
 This [website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) has more detailed install instructions for all 3 operating systems.
@@ -83,3 +86,5 @@ Last, add your group members to the project. As the leader, across the top you'l
 Additional help can be found [here](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository).
 
 ![](media/add_collab.png)
+
+Now everyone should be able to see and edit the repository!
