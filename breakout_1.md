@@ -127,7 +127,13 @@ Now if you got to the page for your branch on github, you'll see the changes you
 2. Click the branch selector menu and select your branch name from the dropdown menu:    
 ![](media/branch-selection-dropdown.png)
 
-**Before moving on, make sure all team members have fixed their assigned scripts, staged/committed/pushed their changes.**
+3. Click on the commit 7-digit identifier to view the changes made:
+![](media/commit-hash.png)
+
+GitHub will show the line-by-line changes made to the script as well as the commit message.
+
+**Before moving on, make sure all team members have fixed their assigned scripts, staged/committed/pushed their changes, 
+and viewed them on GitHub.**
 
 ## 3. Merging branches
 
