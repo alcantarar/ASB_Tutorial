@@ -60,7 +60,10 @@ We will be using Python 3.6 with the Anaconda distribution. This is a large pack
 
 To download the Anaconda distribution, go [here](https://www.anaconda.com/products/individual) and choose your installer near the bottom. Anaconda comes with a few possible IDE's, we prefer VScode but you can use whichever to edit the scripts and run them.
 
+<<<<<<< HEAD
 # ONLY DO THIS IF YOUR ASSIGNED GROUP LEADER
+=======
+>>>>>>> 12903ed383b34b8f8058b8cb9c06fa2d2de61865
 ## 4. Creating the Git Repository for your group.
 This section should cover how the group leader will download the repository, create their own version of it, and then invite their group members (collaborators) to the project. Only one person per group needs to do this.
 
@@ -74,7 +77,11 @@ To create a new repository in your Github account, click the button in the very 
 
 ![](media/new_repo.png)
 
+<<<<<<< HEAD
 Title this 'ASB_Tutorial_Example', and make sure the repository is public. 
+=======
+Title this however you prefer, and make sure the repository is public. 
+>>>>>>> 12903ed383b34b8f8058b8cb9c06fa2d2de61865
 Additional help may be found [here](https://docs.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository).
 
 ### c. Add the files to the repository.
