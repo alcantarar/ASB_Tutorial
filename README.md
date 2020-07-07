@@ -75,4 +75,4 @@ Now navigate to this new repository in your account and add the files. Near the 
 
 ### d. Add collaborators to the project.
 Last, add your group members to the project. As the leader, across the top you'll have an extra button called "Settings". Click this, then Manage Access, then add collaborators. You can then add your group members by Github account, email, or name.
-![](medai/add_collab.png)
+![](media/add_collab.png)
