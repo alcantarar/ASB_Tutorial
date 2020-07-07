@@ -62,17 +62,22 @@ This section should cover how the group leader will download the repository, cre
 
 ### a. Download the repo in .zip format.
 First, download the current repo in a .zip format. Go the the primary repository [here](https://github.com/alcantarar/ASB_Tutorial), then near the top right of the window click the green button with "Code" on it. Then select **Download ZIP**. Extract this zip file to somewhere on your computer.
+
 ![](media/zip_download.png)
 
 ### b. Create a repository on your Github account.
 To create a new repository in your Github account, click the button in the very top left of this window (green circle), then near there click **New** (red circle).
+
 ![](media/new_repo.png)
+
 Title this however you prefer, and make sure the repository is public. 
 
 ### c. Add the files to the repository.
 Now navigate to this new repository in your account and add the files. Near the Code button used before, there will be an add file button. Select this, and add the folder from before. 
+
 ![](media/add_file.png)
 
 ### d. Add collaborators to the project.
 Last, add your group members to the project. As the leader, across the top you'll have an extra button called "Settings". Click this, then Manage Access, then add collaborators. You can then add your group members by Github account, email, or name.
+
 ![](media/add_collab.png)
