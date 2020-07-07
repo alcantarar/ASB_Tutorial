@@ -71,6 +71,7 @@ To create a new repository in your Github account, click the button in the very 
 ![](media/new_repo.png)
 
 Title this however you prefer, and make sure the repository is public. 
+Additional help may be found [here](https://docs.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository).
 
 ### c. Add the files to the repository.
 Now navigate to this new repository in your account and add the files. Near the Code button used before, there will be an add file button. Select this, and add the folder from before. 
@@ -79,5 +80,6 @@ Now navigate to this new repository in your account and add the files. Near the 
 
 ### d. Add collaborators to the project.
 Last, add your group members to the project. As the leader, across the top you'll have an extra button called "Settings". Click this, then Manage Access, then add collaborators. You can then add your group members by Github account, email, or name.
+Additional help can be found [here](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/inviting-collaborators-to-a-personal-repository).
 
 ![](media/add_collab.png)
