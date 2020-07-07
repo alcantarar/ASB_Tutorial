@@ -113,13 +113,23 @@ $ git commit -m "[COMMIT MESSAGE GOES HERE IN QUOTATIONS]"
 ```
 
 ##### 3. Update remote repository
-So Git has taken a snapshot of your local repository and identified changes made. However, the repository stored on 
+So Git has taken a snapshot of your local repository and identified changes made. However, the remote repository stored on 
 GitHub hasn't been updated. This is a cool feature of Git because you can make many changes (commits) without internet
 access to GitHub because you have a local copy of the repository on your computer! Then, when it's convenient, you can 
 send all your commits to the repository on GitHub. This process is called "pushing" commits.
 ```
 git push 
 ```
+Now if you got to the page for your branch on github, you'll see the changes you made locally! To view your branch:
+
+1. Navigate to the main page of the repository on www.github.com
+
+2. Click the branch selector menu and select your branch name from the dropdown menu:    
+![](media/branch-selection-dropdown.png)
+
+**Before moving on, make sure all team members have fixed their assigned scripts, staged/committed/pushed their changes.**
+
+## 3. Merging branches
 
 
  
