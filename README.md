@@ -60,7 +60,7 @@ We will be using Python 3.6 with the Anaconda distribution. This is a large pack
 
 To download the Anaconda distribution, go [here](https://www.anaconda.com/products/individual) and choose your installer near the bottom. Anaconda comes with a few possible IDE's, we prefer VScode but you can use whichever to edit the scripts and run them.
 
-# ONLY DO THIS IF YOUR ASSIGNED GROUP LEADER
+# ONLY DO THIS IF YOU'RE ASSIGNED GROUP LEADER
 ## 4. Creating the Git Repository for your group.
 This section should cover how the group leader will download the repository, create their own version of it, and then invite their group members (collaborators) to the project. Only one person per group needs to do this.
 
