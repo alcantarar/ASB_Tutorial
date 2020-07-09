@@ -20,11 +20,11 @@ Work together to fix the bug in each subscript and generate the figure by runnin
 Your project leader has added you as collaborators on the remote repository on Github. If this hasn't happened yet, 
 request help from the Tutorial Team.
 
-#### a. Assign Tasks
+### a. Assign Tasks
 You will divide and conquer the bugs. There is one bug in each of the five subscripts. Assign each team member a 
 subscript to fix. If there are more subscripts than team members, assign multiple subscripts for some members. 
 
-#### b. Branch Out
+### b. Branch Out
 Once subscripts are assigned, each team member should make their own branch of the repository. This allows team 
 members to simultaneously make changes without affecting each other or the script stored in the remote (online) 
 repository. Name each branch after the respective subscript(s) that will be fixed. 
@@ -36,7 +36,7 @@ repository. Name each branch after the respective subscript(s) that will be fixe
 3. Type in a unique name for your branch (name of subscript(s) to be fixed), then select **Create branch**:    
 ![](media/branch-creation-text.png)
 
-#### c. Clone repository
+### c. Clone repository
 If you're going to be changing code, you need a copy of it on your machine. This is done through a process
 called "cloning", where you download a local copy of a remote repository. To do this, you will use Git Bash or Terminal,
 depending on your operating system. *This tutorial will refer to Git Bash, but the functions are the same in Terminal.*
@@ -45,71 +45,76 @@ Open Git Bash and navigate to folder where you want to store the cloned reposito
 ```
 $ cd PATH/TO/FOLDER/
 ```
-Clone repository from github.com to your computer. [URL] is the URL for the repository of the project leader and will
+Clone repository from github.com to your computer. `URL` is the URL for the repository of the project leader and will
 include their username. It should be like `https://github.com/USERNAME/ASB_Tutorial`.
 ```
-$ git clone [URL]
+$ git clone URL
 ```
 You now have a copy of the repository located at `PATH/TO/FOLDER/`. Go check it out! You'll see all the files that are 
-present on the main page of the repository on GitHub. Now you need to switch to your branch before making any changes to 
-files:
+present on the main page (master branch) of the repository on GitHub. Now you need to switch to your branch before making
+any changes to files:
 ```
 $ git checkout [BRANCH-NAME]
 ```
 Now you're ready to fix some bugs!
 
 ## 2. Making changes to files
-#### a. Debug subscript 
+### a. Debug subscript 
 This isn't a tutorial on debugging, so the bugs are easy to fix and solutions are commented out at the bottom of each 
 subscript. Open MATLAB (or a basic text editor) and fix the bug in your subscript. Save the debugged file (with the 
 same filename).
-#### b. Commit changes
+### b. Commit changes
 You made changes to files in the repository and want these changes to be tracked by Git. Git takes "snapshots" called 
-"commits" of your repository files, but you have to tell it 1) which files to include in the commit, 2) when to make
-the commit and include a message describing the changes in the commit, and 3) update the remote repository on GitHub 
-with your local changes. These three steps are performed in Git Bash and are outlined below.
+"commits" of your repository files, but you have to tell it 
+1) which files to include in the commit
+2) when to make the commit (and include a message describing the changes in the commit)
+3) update the remote repository on GitHub with your local changes. 
 
-##### 1. Tell Git that files have been changed and should be included in the commit. 
+These three steps are performed in Git Bash and are outlined below.
+
+#### 1. Tell Git that files have been changed and should be included in the commit. 
 Git will compare the current state of the files to their previous state and identify any changes made. Files that have
 been changed will be "staged". In the "snapshot" analogy, this step is like wrangling your family members right before 
 taking the picture.
 ```
 $ git add .
 ```
-View the files Git has identified as undergoing some changes (lines starting with `>>>` represent a message returned 
-upon executing `git status`):
+Use the `status` function to view the files Git has identified as undergoing some change (lines starting with `#>>>` 
+represent an example returned message):
 ```
 $ git status
 
->>> On branch [BRANCH-NAME] 
->>> Your branch is up to date with 'origin/[BRANCH-NAME]'.
->>>
->>> Changes to be commited:
->>>   (use "git reset HEAD <file>..." to unstage)
->>>       modified: script_1.m
+1>>> On branch BRANCH-NAME 
+2>>> Your branch is up to date with 'origin/BRANCH-NAME'.
+3>>>
+4>>> Changes to be commited:
+5>>>   (use "git reset HEAD <file>..." to unstage)
+6>>>       modified: script_1.m
 ```
 This returned message tells you a few things:
-1. The branch you're working on.
-2. It found changes that are staged (the result of `git add .`)
-3. How to remove a specific file from being staged (`git reset HEAD [FILENAME]`)
-4. Which file was changed. 
+1. The branch you're working on. (line 1)
+2. Git found changes that are staged (the result of `git add .`; line 4)
+3. How to remove a specific file from being staged (`git reset HEAD FILENAME`; line 5)
+4. Names of the changed file(s) (line 6). 
 
-##### 2. Tell Git when to make the commit
+#### 2. Tell Git when to make the commit
 To continue using the "snapshot" analogy, you need to decide when to take the "snapshot". In this case, you fixed a bug 
 and this represents a meaningful level of changes made to your script. To help organize commits, you need to add a message
 that will be associated with the staged changes. For now, make it short and sweet. For more information on meaningful 
 commit messages, read [this blog post](https://chris.beams.io/posts/git-commit/) later. Remember: Git will only commit the 
 *staged* changes.
 ```
-$ git commit -m "[COMMIT MESSAGE GOES HERE IN QUOTATIONS]"
+$ git commit -m "COMMIT MESSAGE GOES HERE IN QUOTATIONS"
 ```
-##### 3. Update remote repository
+#### 3. Update remote repository
 So Git has taken a snapshot of your local repository and identified changes made. However, the remote repository stored on 
 GitHub hasn't been updated. This is a cool feature of Git because you can make many changes (commits) without internet
 access to GitHub because you have a local copy of the repository on your computer! Then, when it's convenient, you can 
 send all your commits to the repository on GitHub. This process is called "pushing" commits.
+
+To push commits to your remote repository on GitHub, run: 
 ```
-git push 
+$ git push 
 ```
 Now if you got to the page for your branch on github, you'll see the changes you made locally! To view your branch:
 
@@ -131,7 +136,7 @@ At this point, each branch contains their respective fixed subscripts. However, 
 because you haven't merged all these changes together. The way this is accomplished in GitHub is through a process called
 "Pull Requests". Pull requests merge a given branch with the master branch, applying any changes made in the branch. 
 
-##### a. Open Pull Request
+### a. Open Pull Request
 Each member will need to open a pull request for their branch. Navigate to the main repository page on GitHub and select
 the **Pull requests** tab:    
 ![](media/PR-tab.png)    
@@ -155,8 +160,12 @@ If there are no conflicts (there shouldn't be any), select the green "Merge pull
 branch to include the changes you made in your branch. **This process will need to be accomplished for each branch.**    
 ![](media/merge-PR.png)    
 
-At this point, the changes have been merged in the remote repository on GitHub, but not your local copy. Updating your 
-local repository is easy. This process is called "Pulling". 
+You can now delete the branch by selecting "Delete branch" because your bug is fixed! Making branches is easy in Git, 
+so it's best practice to make one for each feature you'd like to add to a script.     
+![](media/delete-branch.png)
+
+At this point, the changes have been merged in the master branch in the remote repository on GitHub, but not your local 
+copy. Updating your local repository is easy. This process is called "Pulling". 
 
 ## 4. Pull changes from Remote Repository
 In Git Bash, switch back to the `master` branch:
