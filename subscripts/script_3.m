@@ -9,7 +9,8 @@
 % plot(data(:,1), data(:,2), 'k-', 'LineWidth',3);
 % plot(data(:,3), data(:,4), 'k-', 'LineWidth',3);
 
-%% This section has the fixed code if you are struggling to debug!
+%% SOLUTION: Breakout 1 
+% This section has the fixed code if you are struggling to debug!
 
 % %read in data
 % data = csvread('outline.csv');

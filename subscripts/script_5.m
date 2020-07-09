@@ -6,7 +6,8 @@
 % %plot text
 % text(2.5,-3.5, year, 'FontSize', 32, 'FontWeight', 'bold')
 
-%% This section has the fixed code if you are struggling to debug!
+%% SOLUTION: Breakout 1 
+% This section has the fixed code if you are struggling to debug!
 
 % %today's date
 % date_text = date;
