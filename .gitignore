@@ -1,2 +1,4 @@
 # Temp Matlab Files
 *.asv
+# Pycharm env config files
+*.idea
