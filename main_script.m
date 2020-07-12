@@ -4,6 +4,7 @@
 %
 addpath(strcat(pwd,'\subscripts'))
 addpath(strcat(pwd,'\data'))
+figure()
 hold on
 
 script_1 %leaf patch
