@@ -8,6 +8,8 @@ I thought this figure looked very good before? I'm not sure what silly reviewer 
 - Revert the changes done to the leafs color to its original color. **_Refer to script 2_**
 - The text for 'Virtual 2020' is to large and overlapping the line. Reduce the text size to 16. **_Refer to script 5_**
 
+* Hint: You can find the commit that the changes were made and revert that commit for two of these comments.
+
 ## Reviewer 2
 ### General comments
 I have discovered that my color vision is very poor.
