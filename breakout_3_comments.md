@@ -1,18 +1,14 @@
 # Reviewer Comments
 ## Reviewer 1
 ### General comments
-What a wonderful figure. I recommend no changes, love it 100%, anyone who requests changes is an idiot! I look forward to seeing you collect your Nobel Peach Prize.
+I thought this figure looked very good before? I'm not sure what silly reviewer wanted changes done to it, but it doesn't look good anymore!The colors are absurd! I have listed my comments on what to revert or change.
+
+### Specific comments
+- Revert the changes done to the peaches color to its original color. **_Refer to script 1_**
+- Revert the changes done to the leafs color to its original color. **_Refer to script 2_**
+- The text for 'Virtual 2020' is to large and overlapping the line. Reduce the text size to 16. **_Refer to script 5_**
 
 ## Reviewer 2
 ### General comments
-I have reviewed your figure and I respect all the work that was put into it. 
-Incorporating a piece of fruit within a logo is certainly a novel approach.
-That said, I have some major concerns regarding the values that your peach conveys. 
-Thus, I have provided comments to help your peach better symbolize eternal youth and be more accessible for color-blind users.
-
-### Specific comments
-- Please change the color of the peach to [252,141,89]. Please refer to https://colorbrewer2.org for appropriate color combinations in the future. **_Refer to script 1_**
-- Please change the color of the leaf to [145,207,96]. **_Refer to script 2_**
-- Please change all outline widths to 1. **_Refer to script 3_**
-- Please decrease the ASB text linewidth to 4. **_Refer to script 4_**
-- Please change the year to 'Virtual 2020'. **_Refer to script 5_**
+I have discovered that my color vision is very poor.
+Please refer to reviewer ones comments to make the figure the best representation of ASB.
