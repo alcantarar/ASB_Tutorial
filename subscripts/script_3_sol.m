@@ -23,7 +23,7 @@ hold on
 plot(data(:,1), data(:,2), 'k-', 'LineWidth',1); % change linewidth to 1
 plot(data(:,3), data(:,4), 'k-', 'LineWidth',1); % change linewidth to 1
 
-%% SOLUTION: Breakout 2
+%% SOLUTION: Breakout 3
 
 %read in data
 data = csvread('outline.csv');
