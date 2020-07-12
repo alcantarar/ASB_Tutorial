@@ -2,7 +2,8 @@
 %
 %   Each of the scripts below has a bug that needs to be fixed!
 %
-addpath(genpath('..'))
+addpath(strcat(pwd,'\subscripts'))
+addpath(strcat(pwd,'\data'))
 hold on
 
 script_1 %leaf patch
