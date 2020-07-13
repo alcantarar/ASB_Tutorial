@@ -2,7 +2,7 @@
 %
 %   Each of the scripts below has a bug that needs to be fixed!
 %
-addpath(strcat(pwd,'\subscripts'))
+addpath(strcat(pwd,'\matlab_scripts'))
 addpath(strcat(pwd,'\data'))
 figure()
 hold on
@@ -17,4 +17,4 @@ script_4 %ASB text
 
 script_5 %year text
 
-disp('great job!')
+disp('Great job!')

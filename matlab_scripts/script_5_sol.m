@@ -21,4 +21,4 @@ text(2.5,-3.5, ['Virtual ' year], 'FontSize', 24, 'FontWeight', 'bold') % Includ
 %today's date
 year = date_text(end-3:end);
 %plot text
-text(2.5,-3.5, ['Virtual ' year], 'FontSize', 16, 'FontWeight', 'bold') % Include 'Virtual ' before 2020
+text(2.5,-3.5, ['Virtual ' year], 'FontSize', 16, 'FontWeight', 'bold') % Change fontsize to 16

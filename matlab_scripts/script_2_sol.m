@@ -14,7 +14,7 @@ l.LineWidth = 2;
 %read in data
 data = csvread('leaf.csv');
 %plot data
-l = patch(data(:,1), data(:,2), [0.5686 0.5882 0.3765]); % divide by 255 to normalize value between 0 and 1
+l = patch(data(:,1), data(:,2), [0.5686 0.5882 0.3765]); % Change the color
 l.LineWidth = 1; % change to 1
 
 %% SOLUTION: Breakout 2
@@ -22,5 +22,5 @@ l.LineWidth = 1; % change to 1
 %read in data
 data = csvread('leaf.csv');
 %plot data
-l = patch(data(:,1), data(:,2), 'green'); % divide by 255 to normalize value between 0 and 1
+l = patch(data(:,1), data(:,2), 'green'); % Change the color back
 l.LineWidth = 1; % change to 1
