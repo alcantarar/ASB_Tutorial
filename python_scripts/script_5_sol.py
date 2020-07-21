@@ -13,6 +13,6 @@ ax.text(2.5,-3.5, year, fontsize = 24, fontweight = 'bold')
 
 #%%  SOLUTION: Breakout 3
 # today's date
-year = 'Virtual ' + str(datetime.datetime.now().year) # Add Virtual
+year = 'Virtual ' + str(datetime.datetime.now().year)
 # plot text
 ax.text(2.5,-3.5, year, fontsize = 16, fontweight = 'bold')
