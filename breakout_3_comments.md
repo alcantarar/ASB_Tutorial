@@ -12,10 +12,21 @@ You decide that some of the comments made by the previous reviewers did not make
 ## How to Checkout to previous commits
 To checkout to a previous commit you need to first find a working commit from before the changes were made, then checkout to that specific commit.
 
-To find the commit that you want to go back to, select the branch that the change was made in.
-Then click the commits text on the right hand side to view all the commits made to that branch.
-Then in the list find the commit that you want to checkout to, and click the clipboard icon to copy the commit number.
-In Git Bash, navigate to the directory, checkout to that branch, and checkout to that commit. 
+1. To find the commit that you want to go back to, select the branch that the change was made in.
+
+
+2. Then click the commits text on the right hand side to view all the commits made to that branch.
+
+![](media/commits.png)
+
+3. Then in the list find the commit that you want to checkout to, and click the clipboard icon to copy the commit number. This will copy the full commit number to your keyboard.
+
+![](media/commit_copy_button.png)
+
+4. In Git Bash, navigate to the directory, checkout to that branch, and checkout to that commit. 
+
 	`git checkout df52ea2`
-Then commit this as a new commit.
+
+5. Then commit this as a new commit.
+
 	`git commit -m 'Revert back to df52ea2` 
