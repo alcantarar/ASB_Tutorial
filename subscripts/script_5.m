@@ -17,6 +17,7 @@ text(2.5,-3.5, year, 'FontSize', 32, 'FontWeight', 'bold')
 %% SOLUTION: Breakout 2
 
 %today's date
+%date_text = date;
 %year = date_text(end-3:end);
 %plot text
-%text(2.5,-3.5, 'Reviewer 2 is the best', 'FontSize', 24, 'FontWeight', 'bold') % per reviewer comments
+%text(2.5,-3.5, 'Reviewer 2 is the best', 'FontSize', 24, 'FontWeight', 'bold', 'Color', 'g') % per reviewer comments

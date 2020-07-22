@@ -15,4 +15,4 @@ Thus, I have provided comments to help your peach better symbolize eternal youth
 - Please change the color of the leaf to [0.792, 0.647, 0.278]. **_Refer to script 2_**
 - Please change all outline widths to 10. **_Refer to script 3_**
 - Please change the ASB text color width to red. **_Refer to script 4_**
-- Please change the year to 'Reviewer 2 is the best'. **_Refer to script 5_**
+- Please change the year to 'Reviewer 2 is the best' and make it green. **_Refer to script 5_**
