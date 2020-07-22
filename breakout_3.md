@@ -1,6 +1,6 @@
 # Breakout 3
 
-Unfortunately, the figure got rejected from Nature. But fear not! There are other fantastic journals to apply to. 
+Unfortunately, the figure got rejected from Nature after revisions. But fear not! There are other fantastic journals to apply to. 
 Your team decides that all of the comments made by the previous reviewers did not make sense, and you want to change them
 back before resubmitting to the next best option: Journal of Biomechanics.
 
