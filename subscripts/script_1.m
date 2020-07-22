@@ -7,7 +7,7 @@ p = patch(data(:,1), data(:,2), 'orange');
 p.LineWidth = 2;
 
 %% SOLUTION: Breakout 1
-%
+
 %read in data
 %data = csvread('peach.csv');
 %plot data
@@ -15,7 +15,7 @@ p.LineWidth = 2;
 %p.LineWidth = 2;
 
 %% SOLUTION: Breakout 2
-%
+
 %read in data
 %data = csvread('peach.csv');
 %plot data
