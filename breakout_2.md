@@ -8,7 +8,7 @@ What a wonderful figure. I recommend no changes, love it 100%, anyone who reques
 I have reviewed your figure and I respect all the work that was put into it. 
 Incorporating a piece of fruit within a logo is certainly a novel approach.
 That said, I have some major concerns regarding the values that your peach conveys. 
-Thus, I have provided comments to help your peach better symbolize eternal youth and be more accessible for color-blind users.
+Thus, I have provided comments to help your peach better symbolize eternal youth.
 
 ### Specific comments
 - Please change the color of the peach to [0.506, 0.0, 0.937]. Please refer to https://colorbrewer2.org for appropriate color combinations in the future. **_Refer to script 1_**
