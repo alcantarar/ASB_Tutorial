@@ -2,7 +2,11 @@
 %
 %   Each of the scripts below has a bug that needs to be fixed!
 %
-addpath(genpath('..'))
+
+% Make sure your MATLAB working directory is the repository folder!
+addpath(strcat(pwd,'\subscripts'))
+addpath(strcat(pwd,'\data'))
+figure()
 hold on
 
 script_1 %leaf patch
