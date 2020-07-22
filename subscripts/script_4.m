@@ -17,4 +17,4 @@ plot(data(:,2), data(:,1), 'k-', 'LineWidth',7);
 %read in data
 %data = csvread('ASB.csv');
 %plot data
-%plot(data(:,1), data(:,2), 'k-', 'LineWidth',4); % change linewidth to 4
+%plot(data(:,1), data(:,2), 'r-', 'LineWidth',7); % change to red per reviewer comments

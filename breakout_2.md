@@ -11,8 +11,8 @@ That said, I have some major concerns regarding the values that your peach conve
 Thus, I have provided comments to help your peach better symbolize eternal youth and be more accessible for color-blind users.
 
 ### Specific comments
-- Please change the color of the peach to [0.9882, 0.1961, 0.3490]. Please refer to https://colorbrewer2.org for appropriate color combinations in the future. **_Refer to script 1_**
-- Please change the color of the leaf to [0.5686, 0.5882, 0.3765]. **_Refer to script 2_**
-- Please change all outline widths to 1. **_Refer to script 3_**
-- Please decrease the ASB text line width to 4. **_Refer to script 4_**
-- Please change the year to 'Virtual 2020'. **_Refer to script 5_**
+- Please change the color of the peach to [0.506, 0.0, 0.937]. Please refer to https://colorbrewer2.org for appropriate color combinations in the future. **_Refer to script 1_**
+- Please change the color of the leaf to [0.792, 0.647, 0.278]. **_Refer to script 2_**
+- Please change all outline widths to 10. **_Refer to script 3_**
+- Please change the ASB text color width to red. **_Refer to script 4_**
+- Please change the year to 'Reviewer 2 is the best'. **_Refer to script 5_**

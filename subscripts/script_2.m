@@ -19,5 +19,5 @@ l.LineWidth = 2;
 %read in data
 %data = csvread('leaf.csv');
 %plot data
-%l = patch(data(:,1), data(:,2), [0.5686 0.5882 0.3765]);
-%l.LineWidth = 1; % change to 1
+%l = patch(data(:,1), data(:,2), [0.792, 0.647, 0.278]); % per reviewer comments
+%l.LineWidth = 1;
