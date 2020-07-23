@@ -4,10 +4,6 @@ import os
 import matplotlib.pyplot as plt
 import datetime
 
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname + '\..')
-
 fig, ax = plt.subplots(1, 1)
 ax.axis('off')
 
@@ -59,3 +55,5 @@ ax.plot(logo[0], logo[1], linewidth = 4, color = 'black')
 year = 'Virtual ' + str(datetime.datetime.now().year) # Add Virtual
 # plot text
 ax.text(2.5,-3.5, year, fontsize = 16, fontweight = 'bold')
+
+plt.show()

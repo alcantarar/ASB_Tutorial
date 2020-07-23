@@ -1,4 +1,9 @@
-# %% script_5
+'''
+	python_scripts/script_5.py
+	-------------------------------
+'''
+
+import datetime
 
 # today's date
 year = str(datetime.datetime.now().month)

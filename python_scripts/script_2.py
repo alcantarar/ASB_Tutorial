@@ -1,7 +1,9 @@
-# %% script_2
-
+'''
+	python_scripts/script_2.py
+	-------------------------------
+'''
 # read in data
-leaf = pd.read_csv('data/leaf.cvs',
+leaf = pd.read_csv('data/leaf.csv',
                    header = None)
 # plot data
 x, y = list(leaf[0]), list(leaf[1])

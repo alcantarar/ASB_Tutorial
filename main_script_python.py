@@ -1,24 +1,38 @@
-import csv
-import pandas as pd
-import os
-import matplotlib.pyplot as plt
-import datetime
+'''
+	main_script_python.py
+	--------------------------------
+	The main file for running this tutorial in Python
 
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname + '\..')
+	Usage:
+		$ python main_script_python.py
+'''
 
-fig, ax = plt.subplots(1, 1)
-ax.axis('off')
+def runFile(num, args):
+	fn = 'python_scripts/script_%d.py' % num
+	f = open(fn)
+	code = compile(f.read(), fn, 'exec')
+	exec(code, args)
+	f.close()
 
-exec(open('python_scripts\script_1.py').read())
 
-exec(open('python_scripts\script_2.py').read())
+def main():
+	try:
+		import pandas as pd
+		import matplotlib.pyplot as plt
+		fig, ax = plt.subplots(1, 1)		
+		ax.axis('off')
+		for i in range(1,6):
+			runFile(i, {
+				'pd': pd, 
+				'plt': plt, 
+				'ax': ax, 
+				'fig': fig})
+		print('Great job!')
+		plt.show()
+	except ImportError as err:
+		mod = str(err).split(' ')[-1].replace("'", '')
+		msg = '\nERROR: %s is not installed. Try running:\n\n\t$ conda install %s' % (mod, mod)
+		print(msg)
 
-exec(open('python_scripts\script_3.py').read())
-
-exec(open('python_scripts\script_4.py').read())
-
-exec(open('python_scripts\script_5.py').read())
-
-print('Great job!')
+if __name__ == '__main__':
+	main()

@@ -1,7 +1,7 @@
-#%%  script_1
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-os.chdir(dname + '\..')
+'''
+	python_scripts/script_1.py
+	-------------------------------
+'''
 
 # read in data
 peach = pd.read_csv('data/peach.csv',
