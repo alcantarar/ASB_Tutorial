@@ -2,7 +2,9 @@
 %
 %   Each of the scripts below has a bug that needs to be fixed!
 %
-addpath(strcat(pwd,'\matlab_scripts'))
+
+% Make sure your MATLAB working directory is the repository folder!
+addpath(strcat(pwd,'\subscripts'))
 addpath(strcat(pwd,'\data'))
 figure()
 hold on
