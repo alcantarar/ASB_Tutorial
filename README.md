@@ -1,5 +1,5 @@
 # ASB 2020 GitHub tutorial setup
-#### [Ryan Alcantara](https://twitter.com/Ryan_Alcantara_) & [Gary Bruening](https://twitter.com/garebearbru) & [Ross Wilkinson]
+#### [Ryan Alcantara](https://twitter.com/Ryan_Alcantara_) & [Gary Bruening](https://gbruening.github.io/) & [Ross Wilkinson](https://twitter.com/rd_wilkinson)
 
 This will be the repository that we will use for the Git Tutorial for [ASB 2020](https://asb2020.gatech.edu/)!
 
