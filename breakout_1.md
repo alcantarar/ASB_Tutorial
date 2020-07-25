@@ -46,13 +46,16 @@ subscript(s) that will be fixed.**
 ### c. Clone repository
 If you're going to be changing code, you need a copy of it on your computer. This is initially done through a process
 called "cloning", where you download a local copy of a remote repository. To do this, you will use Git Bash or Terminal,
-depending on your operating system. *This tutorial will refer to Git Bash, but the functions are the same in Terminal.*
+depending on your operating system. *This tutorial will refer to Git Bash (**not Git CMD**), but the functions are the same in Terminal.*
  
 Repositories can be cloned into any folder, but for this tutorial you will be cloning into the `Desktop` folder.
 Open Git Bash and navigate to the `Desktop` folder by using the `cd` (change directory) command:
 ```
 $ cd Desktop
 ```
+*If you're having trouble navigating into your Desktop folder, ask for help from the Tutorial Team. This process can
+vary depending on operating system and version of Git Bash.*
+
 Now you can clone the remote repository from github.com to your `Desktop` folder. `URL` is the URL for the repository of
 the group leader and will include their username. It should be like `https://github.com/GROUP-LEADER-USERNAME/ASB_Tutorial`.
 ```
@@ -90,7 +93,10 @@ These steps are performed in Git Bash and are outlined below.
 #### 1. Tell Git that files have been changed and should be included in the commit. 
 Git will compare the current state of the files to their previous state and identify any changes made. Files that have
 been changed will be "staged". In the "snapshot" analogy, this step is like wrangling your family members right before 
-taking the picture.
+taking the picture. Don't forget the `.` in the command below. This informs Git that you want to stage all the changed 
+files in the repository. If many files are being changed, commits can become complex and difficult to differentiate. 
+If you want to stage only specific files, replace `.` with the filenames separated by a space, breaking a single complex
+commit into several smaller ones.
 ```
 $ git add .
 ```
@@ -103,13 +109,13 @@ $ git status
 2>>> Your branch is up to date with 'origin/BRANCH-NAME'.
 3>>>
 4>>> Changes to be commited:
-5>>>   (use "git reset HEAD <file>..." to unstage)
+5>>>   (use "git restore HEAD <file>..." to unstage)
 6>>>       modified: script_1.m
 ```
 This returned message tells you a few things:
 1. The branch you're working on. (line 1)
 2. Git found changes that are staged (the result of `git add .`; line 4)
-3. How to remove a specific file from being staged (`git reset HEAD FILENAME`; line 5)
+3. How to remove a specific file from being staged (`git restore HEAD FILENAME`; line 5)
 4. Names of the changed file(s) (line 6). 
 
 #### 2. Tell Git when to make the commit
