@@ -1,15 +1,15 @@
-# Breakout 3
+# Breakout 2
 
-Unfortunately, the figure got rejected from Nature after revisions. But fear not! There are other fantastic journals to apply to. 
-Your team decides that all of the comments made by the previous reviewers did not make sense, and you want to change them
-back before resubmitting to the next best option: Journal of Biomechanics.
+Unfortunately, your figure got rejected from Nature after revisions. But fear not! There are other fantastic journals to 
+apply to. Your team decides that all of the comments made by the previous reviewers did not make sense, and you want to 
+change them back before resubmitting to the next best Journal: Journal of Biomechanics.
 
 ## Undoing changes
 It should be noted that there are **many** ways to undo changes with Git and GitHub. The following resources can help
-with different levels of undoing changes:
+with different levels of undoing changes, ranging from typos in commit messages to reverting whole repositories back:
 * [How to undo (almost) anything with git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
-* [Undoing Commits & Changes](atlassian.com/git/tutorials/undoing-changes)
-* [Oh shit, Git!?!](ohshitgit.com)
+* [Undoing Commits & Changes](https://www.atlassian.com/git/tutorials/undoing-changes)
+* [Oh shit, Git!?!](https://www.ohshitgit.com)
 
 For the current example, one of the reviewers suggested some changes that need to be undone. Since all changes were
 made in separate branches and merged into the `master` branch via Pull Requests, undoing these changes can be done by 
