@@ -1,6 +1,8 @@
 # Breakout Room #1
-![](media/breakout1_fig.png)    
-*The fruit of your labor and best shot at winning the Nobel Peach Prize*
+<div align="center">
+<img src = "media/breakout1_fig.png" >
+<p>The fruit of your labor and best shot at winning the Nobel Peach Prize</p>
+</div>
 
 ## Background
 You and your collaborators have made a recent discovery that will surely result in winning the prestigious
