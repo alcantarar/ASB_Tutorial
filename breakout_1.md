@@ -118,12 +118,12 @@ This returned message tells you a few things:
 3. How to remove a specific file from being staged (`git restore HEAD FILENAME`; line 5)
 4. Names of the changed file(s) (line 6). 
 
-#### 2. Tell Git when to make the commit
-To continue using the "snapshot" analogy, you need to decide when to take the "snapshot". In this case, you fixed a bug 
-and this represents a meaningful level of changes made to your script. To help organize commits, you need to add a message
-that will be associated with the staged changes. For now, make it short and sweet. For more information on meaningful 
+#### 2 & 3. Tell Git when to make the commit and what changed
+To continue using the "snapshot" analogy, you need to decide when to take the "snapshot". In this case, you changed some
+code and this represents a meaningful level of changes made to your script. To help organize commits, you need to add a 
+message that will be associated with the staged changes. For now, make it short and sweet. For more information on meaningful 
 commit messages, read [this blog post](https://chris.beams.io/posts/git-commit/) later. Remember: Git will only commit the 
-*staged* changes.
+*staged* changes. Commit changes by using the `commit` command with the `-m` (message) tag: 
 ```
 $ git commit -m "COMMIT MESSAGE GOES HERE IN QUOTATIONS"
 ```
