@@ -1,7 +1,7 @@
 # Breakout 2
 
 Unfortunately, your figure got rejected from Nature after revisions. But fear not! There are other fantastic journals to 
-apply to. Your team decides that all of the comments made by the previous reviewers did not make sense, and you want to 
+apply to. Your group decides that all of the comments made by the previous reviewers did not make sense, and you want to 
 change them back before resubmitting to the next best Journal: Journal of Biomechanics.
 
 ## Undoing changes
@@ -108,5 +108,5 @@ asedf9  'everything is debugged and working perfectly'
 ```
 
 This is a viable solution for the current situation, but undoing recent Pull Requests in GitHub allows each
-team member to undo their changes instead of one person making an executive decision to revert the entire repository back
+group member to undo their changes instead of one person making an executive decision to revert the entire repository back
 to a particular snapshot.

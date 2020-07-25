@@ -3,8 +3,8 @@
 ## Background
 You and your collaborators have made a recent discovery that will surely result in winning the prestigious
 Nobel Peach Prize, awarded to the group of biomechanists with the best peach-related figure made entirely with 
-code! Your team worked for months, submitted the figure to Nature, and just received reviewer comments. 
-Your team will be able to quickly address these comments in parallel thanks to Git and GitHub!
+code! Your group worked for months, submitted the figure to Nature, and just received reviewer comments. 
+Your group will be able to quickly address these comments in parallel thanks to Git and GitHub!
 
 The code used to generate your figure is comprised of an upper-level script (e.g. `ASB_Tutorial/main_script`), which 
 calls five numbered subscripts (e.g. `ASB_Tutorial/subscripts/script_1`). The data required to generate your 
@@ -21,20 +21,21 @@ by running `main_script`.
 
 ## 1. Organize
 Your project leader has already invited you as collaborators on the remote repository on Github. If this hasn't 
-happened yet, ask for help from the Tutorial Team.
+happened yet, ask for help from the Tutorial Team. It may be helpful to have one group member share their screen when 
+working through this tutorial. 
 
 ### a. Assign Tasks
 You will divide and conquer the reviewer comments. There is one comment for each of the five subscripts. Open a tab,
-naviagte to your team's repository page, and select the `reviewer_comments.md` file. After reading, assign each team 
-member a subscript to fix. If there are more subscripts than team members, assign multiple subscripts for some members. 
+naviagte to your group's repository page, and select the `reviewer_comments.md` file. After reading, assign each group 
+member a subscript to fix. If there are more subscripts than group members, assign multiple subscripts for some members. 
 
 ### b. Branch Out
-Once subscripts are assigned, each team member should make their own branch of the repository on GitHub. Branching creates
-isolated versions of the current state of the repository and allows team members to simultaneously make changes without 
+Once subscripts are assigned, each group member should make their own branch of the repository on GitHub. Branching creates
+isolated versions of the current state of the repository and allows group members to simultaneously make changes without 
 affecting each other or the script stored in the remote (online) repository. **Name each branch after the respective 
 subscript(s) that will be fixed.**
 
-1. Navigate to the main page of your team's repository on GitHub (e.g. www.github.com/GROUP-LEADER-USERNAME/ASB_Tutorial)
+1. Navigate to the main page of your group's repository on GitHub (e.g. www.github.com/GROUP-LEADER-USERNAME/ASB_Tutorial)
 
 2. Click the branch selector menu:    
     ![](media/branch-selection-dropdown.png)
@@ -142,7 +143,7 @@ $ git push
 Now your branch on the remote repository is updated with these changes! Later, we will use GitHub to view the 
 line-by-line changes made to the script as well as your commit message.
 
-**Before moving on, make sure all team members have fixed their assigned scripts, and staged/committed/pushed their changes.**
+**Before moving on, make sure all group members have fixed their assigned scripts, and staged/committed/pushed their changes.**
 
 ## 3. Merging branches
 At this point, each branch contains their respective fixed subscripts. However, `main_script` on the `master` branch 
