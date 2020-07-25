@@ -1,9 +1,11 @@
 # ASB 2020 GitHub tutorial setup
-#### [Ryan Alcantara](https://twitter.com/Ryan_Alcantara_) & [Gary Bruening](https://gbruening.github.io/) & [Ross Wilkinson](https://twitter.com/rd_wilkinson)
+#### Contributors:
+* [Ryan Alcantara](https://twitter.com/Ryan_Alcantara_)
+* [Gary Bruening](https://github.com/GBruening)
+* [Ross Wilkinson](https://twitter.com/rd_wilkinson)
+* [Steve Kasica](https://github.com/swkasica)
 
 This will be the repository that we will use for the Git Tutorial for [ASB 2020](https://asb2020.gatech.edu/)!
-
-We will keep updating this as more things get added.
 
 # Pre-Meeting Setup
 This section is intended to take you through the steps required before the meeting. 
@@ -20,16 +22,14 @@ This should be fairly self explanatory. Go the the GitHub [website](https://gith
 ## 2. Installing Git
 This [website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) has more detailed install instructions for all 3 operating systems.
 
-For this tutorial we will be focusing on using Git with [Github](https://github.com/). Github has produced a great desktop application for Windows and Mac that you may want to use.
+The tutorial will focus on using Git Bash with GitHub, but there are [desktop applications](https://git-scm.com/downloads/guis) 
+that you may be interested in using after the tutorial. These desktop applications will not be used in the tutorial.
 
 ### Windows
-Windows has two options, you can install Git and use the Git Bash application, or you can use the Github desktop application.
-
 To download Git and use the Bash application, go to [this website](https://git-scm.com/download/win) and click the link associated with your version of Windows.
-The tutorial will be focused on using the GitBash application, so we highly recommend this.
 
-If you don't want to use GitBash, you can use the desktop application, but we do not recommend this.
-To download the Github desktop application, go [here](https://desktop.github.com/) and download the application.
+*Note: There are many configuration options available during the setup wizard. The recommended settings will suffice for 
+this tutorial.*
 
 ### Mac
 With Mac (10.9 and above), you can install Git directly by running the command in terminal

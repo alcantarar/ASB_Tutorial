@@ -3,6 +3,8 @@
 %   Each of the scripts below has a bug that needs to be fixed!
 %
 
+clear; close all;
+
 % Make sure your MATLAB working directory is the repository folder!
 addpath(strcat(pwd,'\subscripts'))
 addpath(strcat(pwd,'\data'))
@@ -18,5 +20,3 @@ script_3 %orbit line and stem
 script_4 %ASB text
 
 script_5 %year text
-
-disp('Great job!')
