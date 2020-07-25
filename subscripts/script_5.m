@@ -10,6 +10,7 @@ year = date_text(end-3:end);
 text(2.5,-3.5, year, 'FontSize', 24, 'FontWeight', 'bold')
 ylim([-2,12])
 xlim([-8,10])
+
 %% SOLUTION: Breakout 1
 
 %today's date
