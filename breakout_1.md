@@ -203,10 +203,12 @@ Now your local copy is up to date with the remote repository on GitHub.
 
 ## Moment of Truth
 Go ahead and run `main_script` on your own. If all the changes from each branch were merged into
-`master`, `main_script` should produce the reviewer's version of your figure (below). Doesn't it look better? :wink:
+`master`, `main_script` should produce the reviewer's version of your figure:
 
-![](media/breakout2_fig.png)
-
+<div align="center">
+<img src = "media/breakout2_fig.png" >
+<p>Doesn't it look better? :wink:</p>
+</div>
 
 
  
