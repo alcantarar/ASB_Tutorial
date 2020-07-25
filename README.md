@@ -28,6 +28,9 @@ that you may be interested in using after the tutorial. These desktop applicatio
 ### Windows
 To download Git and use the Bash application, go to [this website](https://git-scm.com/download/win) and click the link associated with your version of Windows.
 
+*Note: There are many configuration options available during the setup wizard. The recommended settings will suffice for 
+this tutorial.*
+
 ### Mac
 With Mac (10.9 and above), you can install Git directly by running the command in terminal
 	git --version
