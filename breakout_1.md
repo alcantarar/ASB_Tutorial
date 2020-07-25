@@ -70,11 +70,17 @@ you just cloned:
 $ cd ASB_Tutorial
 ```
 Before making any changes to files, you need to "check out" the branch you created on GitHub. Remember that branches 
-are isolated versions of a (local and/or remote) repository. Execute the following to switch branches:
+are isolated versions of a (local and/or remote) repository. You can view the available branches by executing:
 ```
-$ git checkout BRANCH-NAME
+$ git branch
 ```
-Git should return a message explaining that you `"Switched to branch BRANCH-NAME"`. 
+You should see the `master` branch as well as any branches your group has made. 
+
+Execute the following to switch to the branch you made:
+```
+$ git checkout YOUR-BRANCH-NAME
+```
+Git should return a message explaining that you `"Switched to branch YOUR-BRANCH-NAME"`. 
 Now you're ready to address some very reasonable reviewer comments!
 
 ## 2. Making changes to files
