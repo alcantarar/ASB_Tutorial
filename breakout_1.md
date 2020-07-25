@@ -209,8 +209,3 @@ Go ahead and run `main_script` on your own. If all the changes from each branch 
 <img src = "media/breakout2_fig.png" >
 <p>Doesn't it look better? :wink:</p>
 </div>
-
-
- 
-
-
