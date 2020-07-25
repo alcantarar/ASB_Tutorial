@@ -16,13 +16,13 @@ made in separate branches and merged into the `master` branch via Pull Requests,
 reverting each pull request on GitHub.
 
 ## Reverting a Recent Pull Request
-1. Click on the "Pull requests" tab on your repository page on www.github.com. GitHub automatically filters Pull Requests
-to only show open (incomplete) ones. Click on the "Closed" to view completed Pull Requests:
+1. Click on the "Pull requests" tab on your group's repository page on GitHub. GitHub automatically filters Pull Requests
+to only show open (incomplete) ones. Click on "Closed" to view completed Pull Requests:
 
     ![](media/closed_pr.png)
 
-    You should see all of the pull requests completed during the tutorial. Descriptive branch names allows you to quickly identify
-    what changes were made:
+    You should see all of the pull requests completed during the tutorial. Descriptive branch names allows you to quickly
+    identify what changes were made:
 
     ![](media/past_prs.png)
 
@@ -30,10 +30,11 @@ to only show open (incomplete) ones. Click on the "Closed" to view completed Pul
 
     ![](media/revert_pr1.png)
 
-    **What is going on here?** You are effectively creating a new Pull Request that does the exact opposite of your past Pull Request. This is different
-    than just deleting the old Pull Request because the history of your repository is maintained. If, for whatever reason, you
-    wanted to go back and see what changes you made because of the reviewer, you could. There may be instances where you want
-    to erase a commit or Pull Request, but doing so is beyond the scope of this tutorial. 
+    **What is going on here?** You are effectively creating a new Pull Request that does the exact opposite of your past 
+    Pull Request. This is different than just deleting the old Pull Request because the history of your repository is 
+    maintained. If, for whatever reason, you wanted to go back and see what changes you made because of the reviewer, you
+    could. There may be instances where you want to erase a commit or Pull Request, but doing so is beyond the scope of 
+    this tutorial. 
 
 3. Select "Create pull request". Note that the new Pull Request title autopopulated, explaining that this is reverting a
 prior change. Then you can merge your new pull request by selecting "Merge pull request" and "Confrim merge" just like 
@@ -47,8 +48,9 @@ Click on the "Insights" tab on your repostory page and then select "Network":
 ![](media/network2.png)
 
 Hovering over the circles will reveal details about the commit and clicking on it will show the line-by-line changes. 
-You can also see where branches originate from and when they were merged back into the `master` branch via a Pull Request.
-In the picture above, we can also see that two branches were made to revert the reviewer comment changes made to script 1 and 2.
+You can also see where branches originate and when they were merged back into the `master` branch via a Pull Request.
+In the picture above, we can also see that two branches were made to revert the reviewer comment changes made to 
+`script_1` and `script_2`.
 
 ## Future Considerations: Project Management with GitHub
 GitHub has many tools that help with project management, including [issue tracking](https://guides.github.com/features/issues/)
@@ -97,6 +99,6 @@ mn3290  'add feature 2'
 asedf9  'everything is debugged and working perfectly'
 ```
 
-This is technically a viable solution for the current situtation, but undoing recent Pull Requests in GitHub allows each
+This is a viable solution for the current situation, but undoing recent Pull Requests in GitHub allows each
 team member to undo their changes instead of one person making an executive decision to revert the entire repository back
 to a particular snapshot.
