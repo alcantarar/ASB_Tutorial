@@ -73,18 +73,19 @@ Git should return a message explaining that you `"Switched to branch BRANCH-NAME
 Now you're ready to address some very reasonable reviewer comments!
 
 ## 2. Making changes to files
-### a. Debug subscript 
-This isn't a tutorial on debugging, so the bugs are easy to fix and solutions are commented out at the bottom of each 
-subscript. Open MATLAB (or a basic text editor) and fix the bug in your subscript. Save the debugged file (with the 
-same filename).
-### b. Commit changes
-You made changes to files in the repository and want these changes to be tracked by Git. Git takes "snapshots" called 
-"commits" of your repository files, but you have to tell it 
-1) which files to include in the commit
-2) when to make the commit (and include a message describing the changes in the commit)
-3) update the remote repository on GitHub with your local changes. 
+### a. Changing your assigned subscript 
+Open MATLAB (or preferred IDE for R and python scripts) and make the requested change in `reviewer_comments.md`. 
+Save the debugged file with the same filename.
 
-These three steps are performed in Git Bash and are outlined below.
+### b. Commit changes
+You made changes to a file in the repository and want these changes to be recorded by Git. Git takes "snapshots" called 
+"commits" of your repository files. You need to communicate the following things explicitly to Git:
+1) Which files to include in the commit (snapshot).
+2) When to make the commit. This process is not automatic.
+3. Write a message summarizing the changes made (so you can reference them later).
+3) Update the remote repository on GitHub with your local changes.
+
+These steps are performed in Git Bash and are outlined below.
 
 #### 1. Tell Git that files have been changed and should be included in the commit. 
 Git will compare the current state of the files to their previous state and identify any changes made. Files that have
