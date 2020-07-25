@@ -42,6 +42,14 @@ you did when merging branches earlier in the tutorial.
 
 4. Delete branch.
 
+5. Now the remote repository has been reverted, but your local repository isn't. Remember that you can update your local
+repository by checking out the `master` branch (if you're not there already) and using the `pull` command:
+```
+$ git checkout master
+$ git pull
+```
+Now you can publish your figure in Journal of Biomechanics and wait to hear from the Nobel Peach Prize Committee! 
+
 ## Visualizing Branches and Pull Requests
 Your group has made several changes to your repository, and GitHub has a tool that helps visualize these changes.
 Click on the "Insights" tab on your repostory page and then select "Network":
