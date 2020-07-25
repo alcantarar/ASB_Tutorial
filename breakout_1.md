@@ -1,8 +1,4 @@
 # Breakout Room #1
-<div align="center">
-<img src = "media/breakout1_fig.png" >
-<p>The fruit of your labor and best shot at winning the Nobel Peach Prize</p>
-</div>
 
 ## Background
 You and your collaborators have made a recent discovery that will surely result in winning the prestigious
@@ -13,6 +9,9 @@ Your team will be able to quickly address these comments in parallel thanks to G
 The code used to generate your figure is comprised of an upper-level script (e.g. `ASB_Tutorial/main_script`), which 
 calls five numbered subscripts (e.g. `ASB_Tutorial/subscripts/script_1`). The data required to generate your 
 figure is stored as CSV files at `ASB_Tutorial/data/`. 
+
+### Generate Figure
+Open and run `ASB_Tutorial/main_script`. This is the figure you submitted to Nature.
 
 **If you need help remembering the git functions, refer to `ASB_Tutorial/git_cheatsheet.md`.**
 
