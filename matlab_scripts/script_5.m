@@ -1,6 +1,6 @@
 %% script_5
 %
-%   This script prodcues the year subscript
+%   This script produces the year subscript
 %
 
 %today's date
