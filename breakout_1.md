@@ -53,18 +53,24 @@ Open Git Bash and navigate to the `Desktop` folder by using the `cd` (change dir
 ```
 $ cd Desktop
 ```
-Clone repository from github.com to your computer. `URL` is the URL for the repository of the project leader and will
-include their username. It should be like `https://github.com/USERNAME/ASB_Tutorial`.
+Now you can clone the remote repository from github.com to your `Desktop` folder. `URL` is the URL for the repository of
+the group leader and will include their username. It should be like `https://github.com/GROUP-LEADER-USERNAME/ASB_Tutorial`.
 ```
 $ git clone URL
 ```
-You now have a copy of the repository located at `PATH/TO/FOLDER/`. Go check it out! You'll see all the files that are 
-present on the main page (master branch) of the repository on GitHub. Now you need to switch to your branch before making
-any changes to files:
+You now have a copy of the repository located at `~/Desktop`. Go check it out! You'll see all the files that are 
+present on the main page (master branch) of your group's repository on GitHub. In Git Bash, navigate into the repository
+you just cloned:
 ```
-$ git checkout [BRANCH-NAME]
+$ cd ASB_Tutorial
 ```
-Now you're ready to fix some bugs!
+Before making any changes to files, you need to "check out" the branch you created on GitHub. Remember that branches 
+are isolated versions of a (local and/or remote) repository. Execute the following to switch branches:
+```
+$ git checkout BRANCH-NAME
+```
+Git should return a message explaining that you `"Switched to branch BRANCH-NAME"`. 
+Now you're ready to address some very reasonable reviewer comments!
 
 ## 2. Making changes to files
 ### a. Debug subscript 
