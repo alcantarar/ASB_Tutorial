@@ -1,49 +1,57 @@
 # Breakout Room #1
+![](media/breakout1_fig.png)    
+*The fruit of your labor and best shot at winning the Nobel Peach Prize*
 
 ## Background
 You and your collaborators have made a recent discovery that will surely result in winning the prestigious
 Nobel Peach Prize, awarded to the group of biomechanists with the best peach-related figure made entirely with 
-code! Your team has been working for months and have just a few bugs to fix before submitting the figure to 
-Nature for publication. Your team will be able to quickly fix these bugs in parallel thanks to Git, a version control 
-system.
+code! Your team worked for months, submitted the figure to Nature, and just received reviewer comments. 
+Your team will be able to quickly address these comments in parallel thanks to Git and GitHub!
 
-The code used to generate your figure is comprised of an upper-level script `ASB_Tutorial/main_script.m`, which 
-calls five numbered subscripts (e.g. `ASB_Tutorial/subscripts/script_1.m`). The data required to generate your 
+The code used to generate your figure is comprised of an upper-level script (e.g. `ASB_Tutorial/main_script`), which 
+calls five numbered subscripts (e.g. `ASB_Tutorial/subscripts/script_1`). The data required to generate your 
 figure is stored as CSV files at `ASB_Tutorial/data/`. 
 
-If you need help remembering the git functions, refer to `ASB_Tutorial/git_cheatsheet.md`.
+**If you need help remembering the git functions, refer to `ASB_Tutorial/git_cheatsheet.md`.**
 
 ## Objective
-Work together to fix the bug in each subscript and generate the figure by running `main_script.m`.
+Work together to address the reviewer comment for each subscript and generate the revised figure 
+by running `main_script`.
 
 ## 1. Organize
-Your project leader has added you as collaborators on the remote repository on Github. If this hasn't happened yet, 
-request help from the Tutorial Team.
+Your project leader has already invited you as collaborators on the remote repository on Github. If this hasn't 
+happened yet, ask for help from the Tutorial Team.
 
 ### a. Assign Tasks
-You will divide and conquer the bugs. There is one bug in each of the five subscripts. Assign each team member a 
-subscript to fix. If there are more subscripts than team members, assign multiple subscripts for some members. 
+You will divide and conquer the reviewer comments. There is one comment for each of the five subscripts. Open a tab,
+naviagte to your team's repository page, and select the `reviewer_comments.md` file. After reading, assign each team 
+member a subscript to fix. If there are more subscripts than team members, assign multiple subscripts for some members. 
 
 ### b. Branch Out
-Once subscripts are assigned, each team member should make their own branch of the repository. This allows team 
-members to simultaneously make changes without affecting each other or the script stored in the remote (online) 
-repository. Name each branch after the respective subscript(s) that will be fixed. 
+Once subscripts are assigned, each team member should make their own branch of the repository on GitHub. Branching creates
+isolated versions of the current state of the repository and allows team members to simultaneously make changes without 
+affecting each other or the script stored in the remote (online) repository. **Name each branch after the respective 
+subscript(s) that will be fixed.**
 
-1. Navigate to the main page of the repository on www.github.com
+1. Navigate to the main page of your team's repository on GitHub (e.g. www.github.com/GROUP-LEADER-USERNAME/ASB_Tutorial)
 
 2. Click the branch selector menu:    
-![](media/branch-selection-dropdown.png)
-3. Type in a unique name for your branch (name of subscript(s) to be fixed), then select **Create branch**:    
-![](media/branch-creation-text.png)
-
+    ![](media/branch-selection-dropdown.png)
+3. Type in a descriptive name for your branch (like the name of subscript you're changing), then select **Create branch**:    
+    ![](media/branch-creation-text.png)
+    
+    If you can't find the "create branch" button, you might not have accepted the invitation to collaborate on the 
+    repository. Check your email or ask for help from the Tutorial Team.
+    
 ### c. Clone repository
-If you're going to be changing code, you need a copy of it on your machine. This is done through a process
+If you're going to be changing code, you need a copy of it on your computer. This is initially done through a process
 called "cloning", where you download a local copy of a remote repository. To do this, you will use Git Bash or Terminal,
 depending on your operating system. *This tutorial will refer to Git Bash, but the functions are the same in Terminal.*
  
-Open Git Bash and navigate to folder where you want to store the cloned repository:
+Repositories can be cloned into any folder, but for this tutorial you will be cloning into the `Desktop` folder.
+Open Git Bash and navigate to the `Desktop` folder by using the `cd` (change directory) command:
 ```
-$ cd PATH/TO/FOLDER/
+$ cd Desktop
 ```
 Clone repository from github.com to your computer. `URL` is the URL for the repository of the project leader and will
 include their username. It should be like `https://github.com/USERNAME/ASB_Tutorial`.
