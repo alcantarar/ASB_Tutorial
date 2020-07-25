@@ -128,48 +128,44 @@ commit messages, read [this blog post](https://chris.beams.io/posts/git-commit/)
 $ git commit -m "COMMIT MESSAGE GOES HERE IN QUOTATIONS"
 ```
 #### 3. Update remote repository
-So Git has taken a snapshot of your local repository and identified changes made. However, the remote repository stored on 
-GitHub hasn't been updated. This is a cool feature of Git because you can make many changes (commits) without internet
-access to GitHub because you have a local copy of the repository on your computer! Then, when it's convenient, you can 
-send all your commits to the repository on GitHub. This process is called "pushing" commits.
+Git has now taken a snapshot of your local repository and identified all changes made. However, the remote repository 
+stored on GitHub hasn't been updated. This is actually a cool feature of Git because you can make many changes (commits) 
+without internet access to GitHub because you have a local copy of the repository on your computer! Then, when it's 
+convenient, you can send all your commits to the repository on GitHub. This process is called "pushing" commits from a 
+local repository to the remote repository.
 
 To push commits to your remote repository on GitHub, run: 
 ```
 $ git push 
 ```
-Now if you got to the page for your branch on github, you'll see the changes you made locally! To view your branch:
+Now your branch on the remote repository is updated with these changes! Later, we will use GitHub to view the 
+line-by-line changes made to the script as well as your commit message.
 
-1. Navigate to the main page of the repository on www.github.com
-
-2. Click the branch selector menu and select your branch name from the dropdown menu:    
-![](media/branch-selection-dropdown.png)
-
-3. Click on the commit 7-digit identifier to view the changes made:    
-![](media/commit-hash.png)
-
-GitHub will show the line-by-line changes made to the script as well as the commit message.
-
-**Before moving on, make sure all team members have fixed their assigned scripts, staged/committed/pushed their changes, 
-and viewed them on GitHub.**
+**Before moving on, make sure all team members have fixed their assigned scripts, and staged/committed/pushed their changes.**
 
 ## 3. Merging branches
-At this point, each branch contains their respective fixed subscripts. However, `main_script.m` on GitHub still isn't functional 
-because you haven't merged all these changes together. The way this is accomplished in GitHub is through a process called
-"Pull Requests". Pull requests merge a given branch with the master branch, applying any changes made in the branch. 
+At this point, each branch contains their respective fixed subscripts. However, `main_script` on the `master` branch 
+on GitHub still isn't updated because you haven't merged all these changes together. The way this is accomplished in 
+GitHub is through a process called "Pull Requests". Pull requests merge two branches, applying any changes made in 
+one branch to the other branch. 
 
 ### a. Open Pull Request
 Each member will need to open a pull request for their branch. Navigate to the main repository page on GitHub and select
 the **Pull requests** tab:    
+
 ![](media/PR-tab.png)    
-and select the green "New pull request" button.
+
+and then select the green "New pull request" button.
 
 Set the "base" branch to `master` and the "compare" branch to your branch from the dropdown menu:    
+
 ![](media/PR-dropdown.png)
 
 GitHub will bring up information about your branch like the number of commits, files changed, and contributors. You will
 also see the line-by-line changes and commit message from earlier. Select the green "Create pull request" button. Then 
 GitHub will ask you to add more information about the branch you're trying to merge. Write an informative title and 
-select the green "Create pull request" button to confirm your decision:    
+select the green "Create pull request" button to confirm your decision:  
+  
 ![](media/PR-text.png)    
 
 Now, GitHub will compare the changed files in your branch to their original state in the master branch and try to implement
@@ -177,12 +173,15 @@ these changes. In some cases, there may be conflicts where multiple contributors
 conflicts are typically resolved manually, but good project organization can generally avoid merge conflicts. **If GitHub 
 finds conflicts with your pull request, ask for help from the Tutorial Team before merging the pull request.**
 
-If there are no conflicts (there shouldn't be any), select the green "Merge pull request" button. This will update the master
-branch to include the changes you made in your branch. **This process will need to be accomplished for each branch.**    
+If there are no conflicts (there shouldn't be any), select the green "Merge pull request" button and confirm your choice.
+This will update the master branch to include the changes you made in your branch. **This process will need to be 
+accomplished for each branch.**    
+
 ![](media/merge-PR.png)    
 
-You can now delete the branch by selecting "Delete branch" because your bug is fixed! Making branches is easy in Git, 
-so it's best practice to make one for each feature you'd like to add to a script.     
+You can now delete the branch by selecting "Delete branch" because your script has been update! Making branches is easy 
+in Git, so it's best practice to make one for each feature you'd like to add to a script and delete it when you're done.
+     
 ![](media/delete-branch.png)
 
 At this point, the changes have been merged in the master branch in the remote repository on GitHub, but not your local 
@@ -193,7 +192,7 @@ In Git Bash, switch back to the `master` branch:
 ```
 $ git checkout master
 ```
-Then, tell git to check the remote repository for any changes that might have occurred and pull those changes over to your
+Then, tell Git to check the remote repository for any changes that might have occurred and pull those changes over to your
 local copy:
 ```
 $ git pull
@@ -201,9 +200,10 @@ $ git pull
 Now your local copy is up to date with the remote repository on GitHub. 
 
 ## Moment of Truth
-Go ahead and run `main_script.m` on your own. If all the bugs are fixed and changes from each branch were merged into
-`master`, `main_script.m` should run successfully and produce your figure. Hopefully it's good enough to win the Nobel 
-Peach Prize!
+Go ahead and run `main_script` on your own. If all the changes from each branch were merged into
+`master`, `main_script` should produce the reviewer's version of your figure (below). Doesn't it look better? :wink:
+
+![](media/breakout2_fig.png)
 
 
 
