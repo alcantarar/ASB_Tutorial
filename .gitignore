@@ -2,3 +2,7 @@
 *.asv
 # Pycharm env config files
 *.idea
+# VS code stuff
+.vscode
+# Python cache stuff
+__pycache__
