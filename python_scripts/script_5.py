@@ -8,7 +8,7 @@
 
 	You may run this script individually via
 
-		$ python_scripts/script_5.py
+		$ python python_scripts/script_5.py
 '''
 import datetime
 
