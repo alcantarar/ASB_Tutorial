@@ -12,7 +12,7 @@
 '''
 
 def drawBody():
-	'Draw the peach body'
+	'''Draw the peach body'''
 	# read in data
 	peach = pd.read_csv('data/peach.csv',
 					header = None)
@@ -26,7 +26,7 @@ def drawBody():
 
 # Solution
 # def drawBody():
-# 	'Draw the peach body'
+# 	'''Draw the peach body'''
 # 	# read in data
 # 	peach = pd.read_csv('data/peach.csv',
 # 					header = None)
