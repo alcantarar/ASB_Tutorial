@@ -14,25 +14,26 @@ import datetime
 
 def drawSubtitle():
 	# get current year
-	year = str(datetime.datetime.now().year)
+	msg = str(datetime.datetime.now().year)
 
 	# plot text
 	ax.text(
 		x=2.5,
-		y=-3.5, 
-		s=year, 
+		y=-4,
+		s=msg,
 		fontsize=24,
+		color='black',
 		fontweight='bold')
 
 # Solution
 # def drawSubtitle():
-# 	msg = 'Reviewer 2 is the best'
+# 	msg = 'Reviewer 2\n is the best'
 
 # 	# plot text
 # 	ax.text(
-# 		x=-0.5,
-# 		y=-4, 
-# 		s=msg, 
+# 		x=2.5,
+# 		y=-4,
+# 		s=msg,
 # 		fontsize=24,
 # 		color='green',
 # 		fontweight='bold')
