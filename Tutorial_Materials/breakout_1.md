@@ -7,13 +7,13 @@ code! Your group worked for months, submitted the figure to Nature, and just rec
 Your group will be able to quickly address these comments in parallel thanks to Git and GitHub!
 
 The code used to generate your figure is comprised of an upper-level script (e.g. `ASB_Tutorial/main_script`), which 
-calls five numbered subscripts (e.g. `ASB_Tutorial/subscripts/script_1`). The data required to generate your 
+calls five numbered subscripts (e.g. `ASB_Tutorial/MATLAB_scripts/script_1`). The data required to generate your 
 figure is stored as CSV files at `ASB_Tutorial/data/`. 
 
 ### Generate Figure
 Open and run `ASB_Tutorial/main_script`. This is the figure you submitted to Nature.
 
-**If you need help remembering the git functions, refer to [`ASB_Tutorial/git_cheatsheet.md`](./git_cheatsheet.md).**
+**If you need help remembering the git functions, refer to [`git_cheatsheet.md`](./Tutorial_Materials/git_cheatsheet.md).**
 
 ## Objective
 Work together to address the reviewer comment for each subscript and generate the revised figure 
@@ -26,7 +26,7 @@ working through this tutorial.
 
 ### a. Assign Tasks
 You will divide and conquer the reviewer comments. There is one comment for each of the five subscripts. Open a tab,
-naviagte to your group's repository page, and select the [`reviewer_comments.md`](./reviewer_comments.md) file. After reading, assign each group 
+naviagte to your group's repository page, and select the [`reviewer_comments.md`](./Tutorial_Materials/reviewer_comments.md) file. After reading, assign each group 
 member a subscript to fix. If there are more subscripts than group members, assign multiple subscripts for some members. 
 
 ### b. Branch Out
@@ -78,7 +78,7 @@ Git should return a message explaining that you `"Switched to branch YOUR-BRANCH
 
 ## 2. Making changes to files
 ### a. Changing your assigned subscript 
-Open MATLAB (or preferred IDE for R and Python scripts) and make the requested change in [`reviewer_comments.md`](./reviewer_comments.md). Save the debugged file with the same filename.
+Open MATLAB (or preferred IDE for R and Python scripts) and make the requested change in [`reviewer_comments.md`](./Tutorial_Materials/reviewer_comments.md). Save the debugged file with the same filename.
 
 ### b. Commit changes
 You made changes to a file in the repository and want these changes to be recorded by Git. Git takes "snapshots" called 
