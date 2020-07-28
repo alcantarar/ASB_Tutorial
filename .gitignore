@@ -6,3 +6,6 @@
 .vscode
 # Python cache stuff
 __pycache__
+.Rproj.user
+# R plotting products
+Rplots.pdf
