@@ -66,11 +66,12 @@ $ cd ASB_Tutorial
 Before making any changes to files, you need to *checkout* the branch you created on GitHub. Remember that branches 
 are isolated versions of a (local and/or remote) repository. You can view the available branches by executing:
 ```
-$ git branch
+$ git branch -a
 ```
-You should see the `master` branch as well as any branches your group has made. 
+You should see the `master` branch as well as any branches your group has made, although they may say `remotes/origin/` 
+before your `BRANCH-NAME`. Don't worry, this just indicates that the branch is from your remote repository on GitHub.
 
-Execute the following to switch to the branch you made:
+Execute the following to switch to the branch you made (don't include `remotes/origin/`):
 ```
 $ git checkout YOUR-BRANCH-NAME
 ```
