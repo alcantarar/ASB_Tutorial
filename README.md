@@ -13,7 +13,7 @@ This section is intended to take you through the steps required before the meeti
 There are three things that you need to do BEFORE the tutorial.
 1. First you need to create a [Github](https://github.com/) account. Follow the instructions on their page to setup your account.
 2. The first program everyone will need is some version of Git. Git is the version control software that allows you to see, track, and edit changes to code bases. 
-3. The second program is either [MATLAB](https://www.mathworks.com/) or [Python](https://www.python.org/). We will be using these to run out example scripts.
+3. The second program is either [MATLAB](https://www.mathworks.com/), [Python](https://www.python.org/), or [R](https://www.r-project.org/about.html). We will be using these to run out example scripts.
 4. Create one git repository for the group. **Only the group lead needs to do this.**
 
 ## 1. Creating a GitHub Account
@@ -46,9 +46,9 @@ or if you're on Debian-based, like Ubuntu run
 
 If these don't work, go to this [page](https://git-scm.com/download/linux) for more information.
 
-## 3. Installing MATLAB/Python
-We setup this tutorial to be used with both MATLAB and Python, either should work.
-Python however, is free to use and download while MATLAB will require a license. Most universities provide students licenses.
+## 3. Installing MATLAB/Python/R
+We setup this tutorial to be used with MATLAB, Python, and R.
+While Python and R are both free to use and download, MATLAB will require a license. Most universities provide students licenses.
 
 ### MATLAB
 These scripts were built in MATLAB 2019b, but we do not believe you need this specific version installed.
@@ -56,9 +56,12 @@ Any recent version should work with our code.
 To download MATLAB go [here](https://www.mathworks.com/downloads/). 
 
 ### Python
-We will be using Python 3.6 with the Anaconda distribution. This is a large package that includes many of the base functions and IDE's that are very common to Python.
+We recommending using Python 2.7, 3.5, 3.6, or 3.7 with the Anaconda distribution. This is a large package that includes many of the base functions and IDE's that are very common to Python. If any of these versions of Python are not alredy installed on your computer, you may also consider installing it via [Miniconda](https://docs.conda.io/en/latest/miniconda.html), a minimal installer for conda.
 
-To download the Anaconda distribution, go [here](https://www.anaconda.com/products/individual) and choose your installer near the bottom. Anaconda comes with a few possible IDE's, we prefer VScode but you can use whichever to edit the scripts and run them.
+To download the full Anaconda distribution, go [here](https://www.anaconda.com/products/individual) and choose your installer near the bottom. Anaconda comes with a few possible IDE's, we prefer VScode but you can use whichever to edit the scripts and run them.
+
+### R
+We will be R using version 3.6, and highly recommend following this tutorial with R in [RStudio](https://rstudio.com/).
 
 # ONLY DO THIS IF YOU'RE ASSIGNED GROUP LEADER
 ## 4. Creating the Git Repository for your group.
