@@ -10,6 +10,11 @@
 #   entirety in RStudio.
 #
 
+# Install ggplot package if missing
+if ('ggplot2' %in% rownames(installed.packages()) == F){
+  install.packages('ggplot2')
+} 
+
 library(ggplot2)
 
 # Import subscript objects
