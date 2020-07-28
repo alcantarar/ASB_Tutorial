@@ -45,6 +45,8 @@ testLeaf <- function() {
 # Solution
 # drawLeaf <- function(canvas) {
 #   # Adds a leaf to an existing ggplot2 context
+#
+#   # read in data
 #   leaf <- read.csv('data/leaf.csv', header=FALSE)
 #   names(leaf) <- c('x', 'y')
 #   leaf[nrow(leaf) + 1,] <- leaf[1,]
