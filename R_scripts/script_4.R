@@ -44,20 +44,17 @@ testDrawASBLogo <- function() {
 }
 
 # Solution
-# drawASBLogo <- function() {
+# drawASBLogo <- function(canvas) {
 #   # read in data
 #   logo <- read.csv('data/ASB.csv',
 #                    header=FALSE)
 #   names(logo) <- c('x', 'y')
-#   
+# 
 #   # plot data
-#   ggplot(data=logo, aes(x=x,y=y)) + 
-#     theme(axis.title=element_blank(),
-#           axis.text=element_blank(),
-#           axis.ticks=element_blank(),
-#           panel.background=element_blank(),
-#           panel.grid=element_blank()) +
-#     geom_path(color='red', 
+#   canvas + 
+#     geom_path(data=logo,
+#               aes(x=x,y=y),
+#               color='red', 
 #               size=6)
-#   
+# 
 # }
