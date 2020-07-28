@@ -13,7 +13,7 @@ figure is stored as CSV files at `ASB_Tutorial/data/`.
 ### Generate Figure
 Open and run `ASB_Tutorial/main_script`. This is the figure you submitted to Nature.
 
-**If you need help remembering the git functions, refer to [`git_cheatsheet.md`](./Tutorial_Materials/git_cheatsheet.md).**
+**If you need help remembering the git functions, refer to [`git_cheatsheet.md`](./git_cheatsheet.md).**
 
 ## Objective
 Work together to address the reviewer comment for each subscript and generate the revised figure 
@@ -26,7 +26,7 @@ working through this tutorial.
 
 ### a. Assign Tasks
 You will divide and conquer the reviewer comments. There is one comment for each of the five subscripts. Open a tab,
-naviagte to your group's repository page, and select the [`reviewer_comments.md`](./Tutorial_Materials/reviewer_comments.md) file. After reading, assign each group 
+naviagte to your group's repository page, and select the [`reviewer_comments.md`](./reviewer_comments.md) file. After reading, assign each group 
 member a subscript to fix. If there are more subscripts than group members, assign multiple subscripts for some members. 
 
 ### b. Branch Out
@@ -34,9 +34,9 @@ Once subscripts are assigned, each group member should make his or her own branc
 
 1. Navigate to the main page of your group's repository on GitHub (e.g. www.github.com/GROUP-LEADER-USERNAME/ASB_Tutorial)
 2. Click the branch selector menu:    
-    ![](media/branch-selection-dropdown.png)
+    ![](../media/branch-selection-dropdown.png)
 3. Type in a descriptive name for your branch (like the name of subscript you're changing), then select **Create branch**:    
-    ![](media/branch-creation-text.png)
+    ![](../media/branch-creation-text.png)
     
     If you can't find the "create branch" button, you might not have accepted the invitation to collaborate on the 
     repository. Check your email or ask for help from the Tutorial Team.
@@ -78,7 +78,7 @@ Git should return a message explaining that you `"Switched to branch YOUR-BRANCH
 
 ## 2. Making changes to files
 ### a. Changing your assigned subscript 
-Open MATLAB (or preferred IDE for R and Python scripts) and make the requested change in [`reviewer_comments.md`](./Tutorial_Materials/reviewer_comments.md). Save the debugged file with the same filename.
+Open MATLAB (or preferred IDE for R and Python scripts) and make the requested change in [`reviewer_comments.md`](./reviewer_comments.md). Save the debugged file with the same filename.
 
 ### b. Commit changes
 You made changes to a file in the repository and want these changes to be recorded by Git. Git takes "snapshots" called 
@@ -145,20 +145,20 @@ one branch to the other branch.
 Each member will need to open a pull request for their branch. Navigate to the main repository page on GitHub and select
 the **Pull requests** tab:    
 
-![](media/PR-tab.png)    
+![](../media/PR-tab.png)    
 
 and then select the green "New pull request" button.
 
 Set the *base branch* to `master` and the *compare branch* to your branch from the dropdown menu:    
 
-![](media/PR-dropdown.png)
+![](../media/PR-dropdown.png)
 
 GitHub will bring up information about your branch like the number of commits, files changed, and contributors. You will
 also see the line-by-line changes and commit message from earlier. Select the green "Create pull request" button. Then 
 GitHub will ask you to add more information about the branch you're trying to merge. Write an informative title and 
 select the green "Create pull request" button to confirm your decision:  
   
-![](media/PR-text.png)    
+![](../media/PR-text.png)    
 
 Now, GitHub will compare the changed files in your branch to their original state in the master branch and try to implement
 these changes. In some cases, there may be conflicts where multiple contributors have changed the same line of code. These
@@ -169,12 +169,12 @@ If there are no conflicts (there shouldn't be any), select the green "Merge pull
 This will update the master branch to include the changes you made in your branch. **This process will need to be 
 accomplished for each branch.**    
 
-![](media/merge-PR.png)    
+![](../media/merge-PR.png)    
 
 You can now delete the branch by selecting "Delete branch" because your script has been updated! Making branches is easy 
 in Git, so it's best practice to make one for each feature you'd like to add to a script and delete it when you're done.
      
-![](media/delete-branch.png)
+![](../media/delete-branch.png)
 
 At this point, the changes have been merged in the `master` branch in the remote repository on GitHub, but not your local 
 copy. Updating your local repository is easy. This process is called *pulling*.

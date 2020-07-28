@@ -18,15 +18,15 @@ reverting each pull request on GitHub.
 ## Reverting a recent pull request
 1. Click on the "Pull requests" tab in your group's repository page on GitHub. GitHub automatically filters pull requests to only show open (incomplete) ones. Click on "Closed" to view completed Pull Requests:
 
-    ![](media/closed_pr.png)
+    ![](../media/closed_pr.png)
 
     You should see all of the pull requests completed during the tutorial. Descriptive branch names allow you to quickly identify what changes were made:
 
-    ![](media/past_prs.png)
+    ![](../media/past_prs.png)
 
 2. Select the Pull Request that you created to complete the reviewer's edits and click "Revert":
 
-    ![](media/revert_pr1.png)
+    ![](../media/revert_pr1.png)
 
     **What is going on here?** You are effectively creating a new pull request that does the exact opposite of your past pull request. This is different than just deleting the old pull request because the history of your repository is maintained. If, for whatever reason, you wanted to go back and see what changes you made because of the reviewer, you could. There may be instances where you want to erase a commit or pull request, but doing so is beyond the scope of this tutorial. 
 
@@ -44,7 +44,7 @@ Now you can publish your figure in Journal of Biomechanics and wait to hear from
 ## Visualizing Branches and Pull Requests
 Your group has made several changes to your repository, and GitHub visualizes these changes as a directed graph. Click on the "Insights" tab on your repostory page and then select "Network."
 
-![](media/network2.png)
+![](../media/network2.png)
 
 Hovering over the circles will reveal details about the commit, and clicking on it will show the line-by-line changes. You can also see where branches originated and when they were merged back into the `master` branch via a pull request. In the picture above, we can also see that two branches were made to revert the reviewer comment changes made to `script_1` and `script_2`.
 
