@@ -196,6 +196,6 @@ Go ahead and run `main_script` on your own. If all the changes from each branch 
 `master`, then `main_script` should produce the reviewer's version of your figure:
 
 <div align="center">
-<img src = "media/breakout2_fig.png" >
+<img src = "../media/breakout2_fig.png" >
 <p>Doesn't it look better? :wink:</p>
 </div>
