@@ -50,7 +50,7 @@ or if you're on Debian-based, like Ubuntu run
 
 If these don't work, go to this [page](https://git-scm.com/download/linux) for more information.
 
-### B. Configure Git
+### B. Configuration
 Now that you have a GitHub account and downloaded Git, you need to configure Git so that it is connected to your GitHub
 account.
 1. Open Git Bash (Or Terminal on Mac) and execute these two lines, inserting your name and email associated with your 
