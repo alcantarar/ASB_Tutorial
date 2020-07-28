@@ -21,25 +21,26 @@ There are three things that everyone needs to do BEFORE the tutorial.
 ## 1. Creating a GitHub Account
 This should be fairly self explanatory. Go the the GitHub [website](https://github.com/), and create a new account.
 
-## 2. Installing Git
+## 2. Setup Git
+### A. Installation
 This [website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) has more detailed install instructions for all 3 operating systems.
 
 The tutorial will focus on using Git Bash with GitHub, but there are [desktop applications](https://git-scm.com/downloads/guis) 
 that you may be interested in using after the tutorial. These desktop applications will not be used in the tutorial.
 
-### Windows
+#### Windows
 To download Git and use the Bash application, go to [this website](https://git-scm.com/download/win) and click the link associated with your version of Windows.
 
 *Note: There are many configuration options available during the setup wizard. The recommended settings will suffice for 
 this tutorial.*
 
-### Mac
+#### Mac
 With Mac (10.9 and above), you can install Git directly by running the command in terminal
 	git --version
 
 You can also install Git through the binary installer, and can be downloaded [here](https://git-scm.com/download/mac).
 
-### Linux
+#### Linux
 If you're on Fedora or another closely related distribution you should be able to run
 	$ sudo dnf install git-all
 
@@ -48,6 +49,17 @@ or if you're on Debian-based, like Ubuntu run
 
 If these don't work, go to this [page](https://git-scm.com/download/linux) for more information.
 
+### B. Configure Git
+Now that you have a GitHub account and downloaded Git, you need to configure Git so that it is connected to your GitHub
+account.
+1. Open Git Bash (Or Terminal on Mac) and execute these two lines, inserting your name and email associated with your 
+GitHub account in quotations:
+```
+$ git config --global user.name "FIRSTNAME LASTNAME"
+```
+```
+$ git config --global user.email "EMAIL-ASSOCIATED-WITH-GITHUB-ACCOUNT"
+```
 ## 3. Installing MATLAB/Python/R
 We setup this tutorial to be used with MATLAB, Python, and R.
 While Python and R are both free to use and download, MATLAB will require a license. Most universities provide students licenses.
