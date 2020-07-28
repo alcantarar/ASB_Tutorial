@@ -14,13 +14,13 @@ library(ggplot2)
 
 drawSubtitle <- function(canvas) {
   # Add a subtitle to an existing ggplot2 context
-  
-  year <- format(Sys.Date(), '%Y')
-  
+
+  msg <- format(Sys.Date(), '%Y')
+
   canvas +
-    geom_text(label=year,
+    geom_text(label=msg,
               aes(x=3, y=-3.5),
-              color='black', 
+              color='black',
               size=12)
 }
 
@@ -38,16 +38,14 @@ testDrawSubtitle <- function() {
 }
 
 # Solution
-# drawSubtitle <- function() {
+# drawSubtitle <- function(canvas) {
+#   # Add a subtitle to an existing ggplot2 context
 #   
-#   ggplot(data=halo, aes(x=2.5,y=-3.5)) + 
-#     theme(axis.title=element_blank(),
-#           axis.text=element_blank(),
-#           axis.ticks=element_blank(),
-#           panel.background=element_blank(),
-#           panel.grid=element_blank()) +
-#     geom_text(label='Reviewer 2 is the best',
-#               aes(x=2.5, y=-3.5),
-#               color='black', 
+#   msg <- 'Reviewer 2\n is the best'
+#   
+#   canvas + 
+#     geom_text(label=msg,
+#               aes(x=3, y=-3.5),
+#               color='green',
 #               size=12)
 # }
