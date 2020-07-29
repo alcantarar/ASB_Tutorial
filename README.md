@@ -36,9 +36,10 @@ To download Git and use the Bash application, go to [this website](https://git-s
 this tutorial.*
 
 #### Mac
-With Mac (10.9 and above), you can install Git directly by running the command in terminal
-	git --version
-
+With Mac (10.9 and above), you can install Git directly by running the command in terminal (without the `$`):
+```
+$ git --version
+```
 You can also install Git through the binary installer, and can be downloaded [here](https://git-scm.com/download/mac).
 
 #### Linux
