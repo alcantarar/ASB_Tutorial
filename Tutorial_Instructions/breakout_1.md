@@ -155,7 +155,12 @@ the **Pull requests** tab:
 
 and then select the green "New pull request" button.
 
-Set the *base branch* to `master` and the *compare branch* to your branch from the dropdown menu:    
+If you click on the *base branch*, you'll see multiple options because the original `ASB_Tutorial` repository is owned
+by `alcantarar` and has just been copied to your group leader's account via a process called [*forking*](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+Forking a public repository allows you to have a copy, make any changes, and potentially contribute to the original repository
+via pull requests. However, in this tutorial you are just contributing to your group leader's forked `ASB_Tutorial` repository,
+not the original one. Set the *base branch* to `GROUP-LEADER-USERNAME/master` and the *compare branch* to your branch 
+from the dropdown menu:    
 
 ![](../media/PR-dropdown.png)
 
