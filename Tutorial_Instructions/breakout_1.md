@@ -10,27 +10,28 @@ The code used to generate your figure is comprised of an upper-level script (e.g
 calls five numbered subscripts (e.g. `ASB_Tutorial/MATLAB_scripts/script_1`). The data required to generate your 
 figure is stored as CSV files at `ASB_Tutorial/data/`. 
 
-### Generate Figure
-Open and run `ASB_Tutorial/main_script`. This is the figure you submitted to Nature.
-
 **If you need help remembering the git functions, refer to [`git_cheatsheet.md`](./git_cheatsheet.md).**
 
 ## Objective
-Work together to address the reviewer comment for each subscript and generate the revised figure 
+Work together to address the reviewer comment for each subscript and eventually generate the revised figure 
 by running `main_script`.
 
 ## 1. Organize
 Your project leader has already invited you as collaborators on the remote repository on GitHub. If this hasn't 
-happened yet, ask for help from the Tutorial Team. It may be helpful to have one group member share their screen when 
-working through this tutorial. 
+happened yet, ask for help from the Tutorial Team. It may be helpful to have one group member share their screen while 
+everyone is working through this tutorial. 
 
 ### a. Assign Tasks
 You will divide and conquer the reviewer comments. There is one comment for each of the five subscripts. Open a tab,
-naviagte to your group's repository page, and select the [`reviewer_comments.md`](./reviewer_comments.md) file. After reading, assign each group 
-member a subscript to fix. If there are more subscripts than group members, assign multiple subscripts for some members. 
+navigate to your group's repository page on GitHub, and select the [`reviewer_comments.md`](./reviewer_comments.md) 
+file. After reading, assign each group member a subscript to fix. If there are more subscripts than group members, 
+assign multiple subscripts for some members. 
 
 ### b. Branch Out
-Once subscripts are assigned, each group member should make his or her own branch of the repository on GitHub. Branching creates isolated versions of the current state of the repository and allows group members to simultaneously make changes without affecting one another or the script stored in the remote (online) repository. **Name each branch after the respective subscript(s) that will be fixed.**
+Once subscripts are assigned, each group member should make his or her own branch of the repository on GitHub. Branching
+creates isolated versions of the current state of the repository and allows group members to simultaneously make changes 
+without affecting one another or the script stored in the remote (online) repository. **Name each branch after the 
+respective subscript(s) that will be fixed.**
 
 1. Navigate to the main page of your group's repository on GitHub (e.g. www.github.com/GROUP-LEADER-USERNAME/ASB_Tutorial)
 2. Click the branch selector menu:    
@@ -76,6 +77,10 @@ Execute the following to switch to the branch you made (don't include `remotes/o
 $ git checkout YOUR-BRANCH-NAME
 ```
 Git should return a message explaining that you `"Switched to branch YOUR-BRANCH-NAME"`. Now you're ready to address some very reasonable reviewer comments!
+
+### Generate Original Figure
+Open and run `ASB_Tutorial/main_script`. This is the figure you submitted to Nature and will be revising per reviewer
+comments.
 
 ## 2. Making changes to files
 ### a. Changing your assigned subscript 
