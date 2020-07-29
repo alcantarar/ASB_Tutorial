@@ -6,8 +6,8 @@
 clear; close all;
 
 % Make sure your MATLAB working directory is the repository folder!
-addpath(strcat(pwd,'\MATLAB_scripts'))
-addpath(strcat(pwd,'\data'))
+addpath(strcat(pwd,'/MATLAB_scripts'))
+addpath(strcat(pwd,'/data'))
 figure()
 hold on
 
