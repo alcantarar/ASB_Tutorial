@@ -21,7 +21,7 @@ def drawBody():
 	y.append(y[0])
 
 	# plot data
-	ax.fill_between(x, y, color = 'peru')
+	ax.fill_between(x, y, color = (0.506, 0.0, 0.937))
 	ax.plot(x, y, color = 'black', linewidth = 2)
 
 # Solution
