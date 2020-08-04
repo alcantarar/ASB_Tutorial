@@ -24,7 +24,7 @@ def drawLeaf():
 	y.append(y[0])
 
 	ax.fill(x, y,
-		color='green')
+		color=[0.792, 0.647, 0.278])
 	
 	ax.plot(x, y, 
 		color='black', 
