@@ -9,7 +9,7 @@
 	You may run this script individually via
 
 		$ python python_scripts/script_3.py
-		
+
 '''
 
 def drawStemAndHalo():
@@ -18,17 +18,17 @@ def drawStemAndHalo():
 		filepath_or_buffer='../data/outline.csv',
 		header = None)
 
-	# remove missing data 
+	# remove missing data
 	outline[outline == -999] = 'NaN'
 
-	width = 3
+	width = 10
 
 	# plot data
-	ax.plot(outline[0], outline[1], 
+	ax.plot(outline[0], outline[1],
 		linewidth=width,
 		color='black')
 
-	ax.plot(outline[2], outline[3], 
+	ax.plot(outline[2], outline[3],
 		linewidth=width,
 		color='black')
 
@@ -39,18 +39,18 @@ def drawStemAndHalo():
 # 		filepath_or_buffer='data/outline.csv',
 # 		header = None)
 
-# 	# remove missing data 
+# 	# remove missing data
 # 	outline[outline == -999] = 'NaN'
 
 # 	width = 10
 
 # 	# plot data
-# 	ax.plot(outline[0], outline[1], 
-# 		linewidth=width, 
+# 	ax.plot(outline[0], outline[1],
+# 		linewidth=width,
 # 		color='black')
 
-# 	ax.plot(outline[2], outline[3], 
-# 		linewidth=width, 
+# 	ax.plot(outline[2], outline[3],
+# 		linewidth=width,
 # 		color='black')
 
 
@@ -59,12 +59,12 @@ if __name__ == '__main__':
 	# We are running this script on its own
 	import pandas as pd
 	import matplotlib.pyplot as plt
-	fig, ax = plt.subplots(1, 1)		
+	fig, ax = plt.subplots(1, 1)
 	ax.axis('off')
 	drawStemAndHalo()
 	plt.show()
 else:
 	# We are running this script from within main_script.py
-	# Thus all the dependencies and globals have already 
+	# Thus all the dependencies and globals have already
 	# been imported.
 	drawStemAndHalo()
