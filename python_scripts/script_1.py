@@ -14,7 +14,7 @@
 def drawBody():
 	'''Draw the peach body'''
 	# read in data
-	peach = pd.read_csv('data/peach.csv',
+	peach = pd.read_csv('../data/peach.csv',
 					header = None)
 	x, y = list(peach[0]), list(peach[1])
 	x.append(x[0])
