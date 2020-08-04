@@ -6,7 +6,7 @@
 %read in data
 data = csvread('data/peach.csv');
 %plot data
-p = patch(data(:,1), data(:,2), [0.8980 0.3176 0.1765]);
+p = patch(data(:,1), data(:,2), [0.506 0.0 0.937]);
 p.LineWidth = 2;
 
 %% SOLUTION: Breakout 1
