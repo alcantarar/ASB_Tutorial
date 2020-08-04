@@ -9,8 +9,8 @@ data = csvread('data/outline.csv');
 data(data == -999) = NaN;
 %plot data
 hold on
-plot(data(:,1), data(:,2), 'k-', 'LineWidth',3);
-plot(data(:,3), data(:,4), 'k-', 'LineWidth',3);
+plot(data(:,1), data(:,2), 'k-', 'LineWidth',10);
+plot(data(:,3), data(:,4), 'k-', 'LineWidth',10);
 
 %% SOLUTION: Breakout 1
 
