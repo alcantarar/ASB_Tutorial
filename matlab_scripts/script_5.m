@@ -5,9 +5,9 @@
 
 %today's date
 date_text = date;
-year = date_text(end-3:end);
+year = 'Reviewer 2 is the best';
 %plot text
-text(2.5,-3.5, year, 'FontSize', 24, 'FontWeight', 'bold')
+text(2.5,-3.5, year, 'FontSize', 24, 'FontWeight', 'bold', 'Color','g')
 xlim([-2,12])
 ylim([-8,10])
 
