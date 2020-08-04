@@ -15,7 +15,7 @@ def drawLeaf():
 	'''Draw the leaf of the peach'''
 	# read in data
 	leaf = pd.read_csv(
-		filepath_or_buffer='data/leaf.csv', 
+		filepath_or_buffer='../data/leaf.csv', 
 		header=None)
 
 	# plot data

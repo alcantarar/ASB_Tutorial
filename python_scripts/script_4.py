@@ -15,7 +15,7 @@ def drawASBLogo():
 	'''Draw the ASB logo'''
 	# read in data
 	logo = pd.read_csv(
-		filepath_or_buffer='data/ASB.csv',
+		filepath_or_buffer='../data/ASB.csv',
 		header=None)
 
 	# plot data
