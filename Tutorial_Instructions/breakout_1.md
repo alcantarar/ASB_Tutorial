@@ -135,7 +135,10 @@ without internet access to GitHub because you have a local copy of the repositor
 convenient, you can send all your commits to the repository on GitHub. This process is called *pushing* commits from a 
 local repository to the remote repository.
 
-To push commits to your remote repository on GitHub, run: 
+To push commits to your remote repository on GitHub, run:
+
+*The first time you push to a repository, Git Bash or Terminal may request that you login to your github account at this
+time. Enter your username and password and press Enter.* 
 ```
 $ git push 
 ```
