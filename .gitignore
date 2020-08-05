@@ -12,3 +12,5 @@ __pycache__
 Rplots.pdf
 # R history
 .Rhistory
+# MacOs
+.DS_Store
