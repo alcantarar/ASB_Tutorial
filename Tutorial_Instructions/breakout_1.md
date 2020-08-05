@@ -52,8 +52,11 @@ Open Git Bash and navigate to the `Desktop` folder by using the `cd` (change dir
 ```
 $ cd Desktop
 ```
-*If you're having trouble navigating into your Desktop folder, ask for help from the Tutorial Team. This process can
-vary depending on operating system, spaces in folder names, and version of Git Bash.*
+*If you're having trouble navigating into your Desktop folder, it may be possible that your desktop folder is located
+ on a different hard drive (like OneNote). Windows users can open file explorer, right click on the file they'd like
+ to clone the repo into, and select `Git Bash Here`. This effectively sets the current directory in Git Bash. You can 
+ also ask for help from the Tutorial Team. This process can vary depending on operating system, spaces in folder names, 
+ and version of Git Bash.*
 
 Now you can clone the remote repository from GitHub.com to your `Desktop` folder. `URL` is the repository of
 the group leader and will include his or her username. It should be like `https://github.com/GROUP-LEADER-USERNAME/ASB_Tutorial`.
