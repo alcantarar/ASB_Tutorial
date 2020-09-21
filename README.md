@@ -1,30 +1,45 @@
-# ASB 2020 GitHub tutorial setup
-#### Contributors:
+# Git Tutorial 
+*last updated 9/21/2020*
+
+#### Fork Contributers:
+* [Abhi Boppana](https://twitter.com/abhishektha)
+
+This is a repository to teach basic Git and GitHub skills to newcomers in a quick one-hour lesson. 
+The lesson includes an interactive element, using either Python, MATLAB, or R. 
+The tutorial leader can setup for the interactive element by following the [group leader instructions](Group-Leader-Instructions.md).
+
+The tutorial is based on the excellent [tutorial](https://github.com/alcantarar/ASB_Tutorial) presented at the ASB 2020 Conference. 
+Thanks to the original contributers who put together the tutorial:
 * [Ryan Alcantara](https://twitter.com/Ryan_Alcantara_)
 * [Gary Bruening](https://github.com/GBruening)
 * [Ross Wilkinson](https://twitter.com/rd_wilkinson)
 * [Steve Kasica](https://github.com/swkasica)
 
-This will be the repository that we will use for the Git Tutorial for [ASB 2020](https://asb2020.gatech.edu/)!
 
-# Pre-Meeting Setup
-This section is intended to take you through the steps required before the meeting. 
+## Pre-Tutorial Setup for Interactive Lesson 
+This section is intended to take attendees through the steps required before the tutorial. 
 
-There are three things that everyone needs to do BEFORE the tutorial. **If you have trouble with any of these steps,
-please reach out to the tutorial organizers.**
-1. First you need to create a [Github](https://github.com/) account. Follow the instructions on their page to setup your account.
-2. The first program everyone will need is some version of Git. Git is the version control software that allows you to see, track, and edit changes to code bases. 
-3. The second program is either [MATLAB](https://www.mathworks.com/), [Python](https://www.python.org/), or [R](https://www.r-project.org/about.html). We will be using these to run example scripts.
+There are three things that everyone needs to do BEFORE the tutorial. 
+1. Create a [Github](https://github.com/) account.
+
+2. Install [Git](https://git-scm.com/downloads)
+
+3. Install one of the following programs (ask the tutorial leader which they will be using)
+    1. [MATLAB](https://www.mathworks.com/)
+    2. [Python](https://www.python.org/)
+    3. [R](https://www.r-project.org/about.html)
 
 **Group Leaders have an additional step to complete BEFORE the tutorial:**
-- Create one GitHub repository for your group via [these instructions](https://github.com/alcantarar/ASB_Tutorial/wiki/Group-Leader-Instructions).
+- Create one GitHub repository for your group via [these instructions](Group-Leader-Instructions.md).
 
 ## 1. Creating a GitHub Account
-This should be fairly self explanatory. Go the the GitHub [website](https://github.com/), and create a new account.
+This should be fairly self explanatory.
+Go the the [GitHub website](https://github.com/), and create a new account.
+If you are eligble, you can create a [GitHub Education](https://education.github.com/) account with extra benefits 
 
 ## 2. Setup Git
 ### A. Installation
-This [website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) has more detailed install instructions for all 3 operating systems.
+The [git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) has more detailed install instructions for all 3 operating systems.
 
 The tutorial will focus on using Git Bash with GitHub, but there are [desktop applications](https://git-scm.com/downloads/guis) 
 that you may be interested in using after the tutorial. These desktop applications will not be used in the tutorial.
