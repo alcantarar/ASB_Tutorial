@@ -11,45 +11,25 @@
 		$ python python_scripts/script_2.py
 '''
 
+
 def drawLeaf():
-	'''Draw the leaf of the peach'''
-	# read in data
-	leaf = pd.read_csv(
+ 	'''Draw the leaf of the peach'''
+ 	# read in data
+ 	leaf = pd.read_csv(
 		filepath_or_buffer='data/leaf.csv', 
 		header=None)
 
-	# plot data
-	x, y = list(leaf[0]), list(leaf[1])
-	x.append(x[0])
-	y.append(y[0])
+ 	# plot data
+ 	x, y = list(leaf[0]), list(leaf[1])
+ 	x.append(x[0])
+ 	y.append(y[0])
 
-	ax.fill(x, y,
-		color='green')
+ 	ax.fill(x, y,
+		color=(0.792, 0.647, 0.278))
 	
-	ax.plot(x, y, 
+ 	ax.plot(x, y, 
 		color='black', 
 		linewidth=2)
-
-# Solution
-#
-# def drawLeaf():
-# 	'''Draw the leaf of the peach'''
-# 	# read in data
-# 	leaf = pd.read_csv(
-# 		filepath_or_buffer='data/leaf.csv', 
-# 		header=None)
-
-# 	# plot data
-# 	x, y = list(leaf[0]), list(leaf[1])
-# 	x.append(x[0])
-# 	y.append(y[0])
-
-# 	ax.fill(x, y,
-# 		color=(0.792, 0.647, 0.278))
-	
-# 	ax.plot(x, y, 
-# 		color='black', 
-# 		linewidth=2)
 
 
 # You will not need to edit the code below
