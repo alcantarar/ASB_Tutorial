@@ -11,20 +11,6 @@
 		$ python python_scripts/script_1.py
 '''
 
-def drawBody():
-	'''Draw the peach body'''
-	# read in data
-	peach = pd.read_csv('data/peach.csv',
-					header = None)
-	x, y = list(peach[0]), list(peach[1])
-	x.append(x[0])
-	y.append(y[0])
-
-	# plot data
-	ax.fill_between(x, y, color = 'peru')
-	ax.plot(x, y, color = 'black', linewidth = 2)
-
-# Solution
 # def drawBody():
 # 	'''Draw the peach body'''
 # 	# read in data
@@ -35,8 +21,22 @@ def drawBody():
 # 	y.append(y[0])
 
 # 	# plot data
-# 	ax.fill_between(x, y, color = (0.506, 0.0, 0.937))
+# 	ax.fill_between(x, y, color = 'peru')
 # 	ax.plot(x, y, color = 'black', linewidth = 2)
+
+# Solution
+def drawBody():
+ 	'''Draw the peach body'''
+ 	# read in data
+ 	peach = pd.read_csv('data/peach.csv',
+ 					header = None)
+ 	x, y = list(peach[0]), list(peach[1])
+ 	x.append(x[0])
+ 	y.append(y[0])
+
+ 	# plot data
+ 	ax.fill_between(x, y, color = (0.506, 0.0, 0.937))
+ 	ax.plot(x, y, color = 'black', linewidth = 2)
 
 
 # You will not need to edit the code below
