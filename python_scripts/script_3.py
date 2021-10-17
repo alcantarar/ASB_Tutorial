@@ -12,46 +12,26 @@
 		
 '''
 
+# Solution
 def drawStemAndHalo():
-	# read in data
-	outline = pd.read_csv(
+ 	# read in data
+ 	outline = pd.read_csv(
 		filepath_or_buffer='data/outline.csv',
 		header = None)
 
-	# remove missing data 
-	outline[outline == -999] = 'NaN'
+ 	# remove missing data 
+ 	outline[outline == -999] = 'NaN'
 
-	width = 3
+ 	width = 10
 
-	# plot data
-	ax.plot(outline[0], outline[1], 
-		linewidth=width,
+ 	# plot data
+ 	ax.plot(outline[0], outline[1], 
+		linewidth=width, 
 		color='black')
 
-	ax.plot(outline[2], outline[3], 
-		linewidth=width,
+ 	ax.plot(outline[2], outline[3], 
+		linewidth=width, 
 		color='black')
-
-# Solution
-# def drawStemAndHalo():
-# 	# read in data
-# 	outline = pd.read_csv(
-# 		filepath_or_buffer='data/outline.csv',
-# 		header = None)
-
-# 	# remove missing data 
-# 	outline[outline == -999] = 'NaN'
-
-# 	width = 10
-
-# 	# plot data
-# 	ax.plot(outline[0], outline[1], 
-# 		linewidth=width, 
-# 		color='black')
-
-# 	ax.plot(outline[2], outline[3], 
-# 		linewidth=width, 
-# 		color='black')
 
 
 # You will not need to edit the code below
