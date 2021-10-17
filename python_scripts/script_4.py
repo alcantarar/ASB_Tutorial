@@ -11,19 +11,6 @@
 		$ python python_scripts/script_4.py
 '''
 
-def drawASBLogo():
-	'''Draw the ASB logo'''
-	# read in data
-	logo = pd.read_csv(
-		filepath_or_buffer='data/ASB.csv',
-		header=None)
-
-	# plot data
-	ax.plot(logo[0], logo[1], 
-		linewidth=7, 
-		color='black')
-
-# # Solution
 # def drawASBLogo():
 # 	'''Draw the ASB logo'''
 # 	# read in data
@@ -34,7 +21,20 @@ def drawASBLogo():
 # 	# plot data
 # 	ax.plot(logo[0], logo[1], 
 # 		linewidth=7, 
-# 		color='red')
+# 		color='black')
+
+# # Solution
+def drawASBLogo():
+ 	'''Draw the ASB logo'''
+ 	# read in data
+ 	logo = pd.read_csv(
+		filepath_or_buffer='data/ASB.csv',
+		header=None)
+
+ 	# plot data
+ 	ax.plot(logo[0], logo[1], 
+		linewidth=7, 
+		color='red')
 
 
 
